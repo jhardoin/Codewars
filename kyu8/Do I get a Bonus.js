@@ -1,0 +1,1 @@
+const bonusTime = (salary, bonus) => (bonus === true) ? "£" + (salary * 10) : "£" + salary
