@@ -1,0 +1,1 @@
+let websites = Array.from({length: 1000}).fill('codewars')
