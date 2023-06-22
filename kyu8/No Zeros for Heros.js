@@ -1,0 +1,1 @@
+const noBoringZeros = (n) => n === 0 ? 0 : parseInt(n.toString().replace(/0+$/, ''))
