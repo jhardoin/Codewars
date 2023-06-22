@@ -1,0 +1,1 @@
+const position = (letter) => `Position of alphabet: ${parseInt(letter, 36) - 9}`
