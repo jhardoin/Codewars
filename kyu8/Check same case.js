@@ -1,5 +1,9 @@
 function sameCase(a, b){
-    if (!a.match(/[A-z]/g) || !b.match(/[A-z]/g)) return -1;
-    if (( a.match(/[A-Z]/g) && b.match(/[A-Z]/g) ) || ( a.match(/[a-z]/g) && b.match(/[a-z]/g) )) return 1;
-    else return 0;
-    }
+    if(a.toUpperCase() === a.toLowerCase() || b.toLowerCase() === b.toUpperCase()){
+       return -1
+     }else if(a === a.toLowerCase() && b === b.toLowerCase() || a === a.toUpperCase() && b === b.toUpperCase()){
+         return 1
+     }else{
+       return 0
+     }
+   }
