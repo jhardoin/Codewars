@@ -1,0 +1,1 @@
+const arrayMadness = (a, b) => a.map(e => e ** 2).reduce((x, y) => x + y) > b.map(e => e ** 3).reduce((x, y) => x + y)
