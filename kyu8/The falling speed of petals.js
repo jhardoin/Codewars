@@ -1,0 +1,1 @@
+const sakuraFall = (v) => (v < 1) ? 0 : 400/v
