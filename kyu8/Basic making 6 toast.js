@@ -1,0 +1,1 @@
+const sixToast = (num) => (num - 6 === 0) ? 0 : Math.abs(num - 6)
