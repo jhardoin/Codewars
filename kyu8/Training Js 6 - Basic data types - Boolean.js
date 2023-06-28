@@ -1,0 +1,1 @@
+const trueOrFalse = (val) => (val == false || val === null || val === undefined) ? 'false' : 'true'
