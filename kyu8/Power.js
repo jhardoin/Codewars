@@ -1,0 +1,1 @@
+const numberToPower = (number, power) => (power < 1) ? power + 1 : Array.from({ length: power}).map(e => number).reduce((a,b) => a * b)
