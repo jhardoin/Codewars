@@ -1,0 +1,1 @@
+const shark = (pD, sD, yS, sS, d) => (d == true && (pD/yS < (sD/sS * 2)) || (pD/yS < sD/sS)) ? 'Alive!' : "Shark Bait!";
