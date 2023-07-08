@@ -1,0 +1,1 @@
+const alphabetPosition = (text) => [...text.replace(/[^a-z]/gi, '').toLowerCase()].map(e => e.charCodeAt() - 96).join(' ')
