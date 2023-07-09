@@ -1,0 +1,1 @@
+const grabscrab = (anagram, dictionary) => dictionary.filter(e => [...e].sort().join('') == [...anagram].sort().join(''))
