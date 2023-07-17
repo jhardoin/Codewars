@@ -1,0 +1,1 @@
+const validateHello = (greetings) =>(/hello|ciao|salut|hallo|hola|ahoj|czesc/gi).test(greetings)
