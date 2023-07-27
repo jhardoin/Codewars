@@ -1,0 +1,6 @@
+function capitalize(s){
+    let sWithI = s.split('').map((e,i) => [e, i])
+    let even = sWithI.map(e => e[1] % 2 == 0 ? e[0].toUpperCase() : e[0]).join('')
+    let odd = sWithI.map(e => e[1] % 2 == 0 ? e[0] : e[0].toUpperCase()).join('')
+    return [even, odd]
+  };
