@@ -1,0 +1,1 @@
+const getEvenNumbers = numbersArray => numbersArray.filter(e => e % 2 == 0)
