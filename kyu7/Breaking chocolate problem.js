@@ -1,0 +1,1 @@
+const breakChocolate = (n,m) => (n * m < 2) ? 0 : (n * m) - 1
