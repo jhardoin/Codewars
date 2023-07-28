@@ -1,0 +1,1 @@
+const solution = d =>  Math.max( ...d.split('').map( (x,i,a)=> +(a.slice(i, i+5).join('')) ) )
