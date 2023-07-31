@@ -1,0 +1,1 @@
+const minValue = v => Number(Array.from(new Set(v)).sort((a,b) => a - b).join(''))
