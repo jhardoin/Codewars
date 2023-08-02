@@ -1,0 +1,1 @@
+const filterString = v => Number(v.replace(/[a-zA-Z]/gi, ''))
