@@ -1,0 +1,1 @@
+const solution = value => `Value is ${String(value).padStart(5, '0')}`
