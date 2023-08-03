@@ -1,0 +1,1 @@
+const sum = () => [...arguments].filter(e => e !== undefined).reduce((a,b) => a + b)
