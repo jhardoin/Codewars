@@ -1,0 +1,1 @@
+const sumOfIntegersInString = s => s.match(/\d+/g) == null ? 0 : s.match(/\d+/g).reduce((a,b) => +a + +b, 0)
