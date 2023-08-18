@@ -1,0 +1,1 @@
+const find =(a, e) => (a.indexOf(e) == -1)?'Not found':a.indexOf(e)
