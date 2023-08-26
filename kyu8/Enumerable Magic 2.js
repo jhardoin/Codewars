@@ -1,0 +1,1 @@
+const any = (arr, fun) => arr.map((e,i) => fun(arr[i])).some(e => e == true)
