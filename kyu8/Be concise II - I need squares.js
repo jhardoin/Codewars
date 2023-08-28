@@ -1,0 +1,1 @@
+const squaresOnly = array => array.filter(e => Number.isInteger(Math.sqrt(e)))
