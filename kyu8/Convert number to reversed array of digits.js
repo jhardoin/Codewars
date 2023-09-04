@@ -3,3 +3,5 @@ function digitize(n) {
     const nArr = nString.split('').reverse()
     return nArr.map(nString => parseInt(nString))
     }
+
+    const digitize = n => n.toString().split('').reverse().map(e => +e)
