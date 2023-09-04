@@ -5,4 +5,4 @@ function abbrevName(name){
 
 
 
-
+const abbrevName = n => n.toUpperCase().split(' ')[0][0] + '.' + n.toUpperCase().split(' ')[1][0]
