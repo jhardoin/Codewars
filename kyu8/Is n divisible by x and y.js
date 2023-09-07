@@ -4,3 +4,5 @@ function isDivisible(n, x, y) {
     }
     return false;
   }
+
+  const isDivisible = (n, x, y) => !(n % x) && !(n % y)
