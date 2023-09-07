@@ -6,3 +6,5 @@ function greet(name){
        return "Hello, " + name + "!";
     }
   }
+
+  const greet = name => name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!"
