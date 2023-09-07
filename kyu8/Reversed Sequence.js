@@ -5,3 +5,5 @@ const reverseSeq = n => {
     }
     return solution;
   }
+
+  const reverseSeq = n => Array.from({length:n}, (_, i) => i+1).reverse()
