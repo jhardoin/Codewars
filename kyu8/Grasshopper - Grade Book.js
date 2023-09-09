@@ -6,3 +6,8 @@ function getGrade (s1, s2, s3) {
   if(avgGrade >= 60) return 'D'
   else return 'F'
 }
+
+function getGrade (s1, s2, s3) {
+  let av = (s1 + s2 + s3)/3
+  return av >= 90 ? 'A' : av >= 80 ? 'B' : av >= 70 ? 'C' : av >= 60 ? 'D' : 'F'
+}
