@@ -6,3 +6,8 @@ function points(games) {
       return acc+value;
     }, 0)
   }
+
+  const points = (games, count = 0) => {
+    games.forEach(e => +e[0] > +e[2] ? count += 3 : +e[0] == +e[2] ? count++ : 0)
+    return count
+  }
