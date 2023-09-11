@@ -4,3 +4,5 @@ function doubleChar(str) {
       solution += char + char;
     return solution
 }
+
+const doubleChar = str => [...str].map(e => e+e).join('')
