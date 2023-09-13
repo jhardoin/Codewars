@@ -12,3 +12,10 @@ function moveZeros(arr) {
   
     return solution.concat(zeros);
   }
+
+  function moveZeros(arr) {
+    let arr1 = []
+    let arr2 = []
+    arr.forEach(e => e === 0 ? arr2.push(e) : arr1.push(e))
+    return arr1.concat(arr2)
+  }
