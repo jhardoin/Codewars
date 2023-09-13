@@ -5,3 +5,5 @@ function monkeyCount(n) {
     }
     return monkeys;
    }
+
+   const monkeyCount = n => Array.from({length:n}, (v,i) => i+1)
