@@ -6,3 +6,11 @@ function between(a, b) {
     
     return newArr
   }
+
+  function between(a, b) {
+    let solution = []
+    for(let i = a; i <= b; i++){
+      solution.push(i)
+    }
+    return solution
+  }
