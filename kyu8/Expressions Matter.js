@@ -5,3 +5,5 @@ const expressionMatter = (a, b, c) => {
     let totalFour = a + b + c;
       return Math.max(totalOne, totalTwo, totalThree, totalFour);
   }
+
+  const expressionMatter = (a, b, c) => Math.max(a * (b + c), a * b * c, a + b + c, (a + b) * c)
