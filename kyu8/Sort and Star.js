@@ -3,3 +3,5 @@ function twoSort(s) {
     const firstLetter = s[0];
     return firstLetter.split('').join('***');
   }
+
+  const twoSort = s => [...s.sort()[0]].join('***')
