@@ -8,3 +8,11 @@ function findMultiples(integer, limit) {
     return arry;
   }
   
+  function findMultiples(integer, limit) {
+    let result = []
+    for(let i = 1; i <= limit; i++){
+      if(i % integer == 0) result.push(i)
+    }
+    return result
+  }
+  
