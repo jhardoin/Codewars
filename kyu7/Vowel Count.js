@@ -8,3 +8,11 @@ function getCount(str) {
       return vowels.length;
     }
     }
+
+
+    function getCount(str) {
+      let vowels = ['a', 'e', 'i', 'o', 'u']
+      let count = 0
+      str.split('').map(e => vowels.includes(e) ? count ++ : '')
+      return count
+    }
