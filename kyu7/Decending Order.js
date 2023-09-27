@@ -2,3 +2,5 @@ function descendingOrder(n){
     let solution = n.toString().split('').sort((a,b) => a - b).reverse().join('')
     return parseInt(solution)
    }
+
+   const descendingOrder = n => +[...n.toString()].sort((a,b) => b - a).join('')
