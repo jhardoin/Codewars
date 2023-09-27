@@ -4,3 +4,6 @@ function squareDigits(num){
     let sqNum = numArray.map((numArray) => numArray ** 2);
     return parseInt(sqNum.join(''))
 }
+
+
+const squareDigits = num => +[...num.toString()].map(e => +e * +e).join('')
