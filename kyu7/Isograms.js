@@ -8,3 +8,5 @@ function isIsogram(str) {
     }
     return true
   }
+
+  const isIsogram = str => str.length == [...new Set(str.toLowerCase())].length
