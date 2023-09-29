@@ -1,1 +1,3 @@
 const filter_list = l => l.filter(e => typeof e == 'number')
+
+const filter_list = l => l.filter(e => typeof e == 'number')
