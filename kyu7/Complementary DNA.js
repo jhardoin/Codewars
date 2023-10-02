@@ -3,3 +3,5 @@ function DNAStrand(dna){
     return dna.replace(/A|T|G|C/g, match => changeDNA[match])
                        
   }
+
+  const DNAStrand = dna =>[...dna].map(e => e == 'A' ? 'T' : e == 'T' ? 'A' : e == 'C' ? 'G' : 'C').join('')
