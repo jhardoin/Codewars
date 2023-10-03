@@ -1,0 +1,1 @@
+const sumStrings = (a,b) =>`${+a + +b}`.length <= 15 ? `${+a + +b}` : String(BigInt(a) + BigInt(b))
