@@ -6,3 +6,11 @@ function calculateYears(principal, interest, tax, desired) {
     }
   return y
 }
+
+function calculateYears(principal, interest, tax, desired) {
+  let years = 0
+  for(let i = principal; i < desired; i += (i * interest) - (i * interest * tax)){
+    years++
+  }
+  return years
+}
