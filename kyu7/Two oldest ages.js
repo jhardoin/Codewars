@@ -3,3 +3,8 @@ function twoOldestAges(ages){
     return [s[1], s[0]]
   }
   
+  function twoOldestAges(ages){
+    ages.sort((a,b) => b - a).length = 2
+    return ages.reverse()
+  }
+  
