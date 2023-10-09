@@ -5,3 +5,10 @@ function solve(s){
     if(upperCheck.length > lowerCheck.length) return s.toUpperCase()
     else return s.toLowerCase()
 }
+
+function solve(s){
+    let upper = 0
+    let lower = 0
+    s.split('').map(e => e == e.toUpperCase() ? upper++ : lower++)
+    return lower >= upper ? s.toLowerCase() : s.toUpperCase()
+}
