@@ -8,3 +8,13 @@ function evaporator(content, evap_per_day, threshold){
   }
     return days
   }
+
+  function evaporator(content, evap_per_day, threshold){ 
+    let result = 100
+    let days = 0
+    for(let i = 0; result > threshold; i++){
+      result = result - (result * evap_per_day / 100)
+      days++
+    }
+    return days
+  }
