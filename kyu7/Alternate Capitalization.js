@@ -4,3 +4,9 @@ function capitalize(s){
     let odd = sWithI.map(e => e[1] % 2 == 0 ? e[0] : e[0].toUpperCase()).join('')
     return [even, odd]
   };
+
+  function capitalize(s){
+    let a = [...s].map((e,i) => i % 2 == 0 ? e.toUpperCase() : e.toLowerCase()).join('')
+    let b = [...s].map((e,i) => !(i% 2) ? e.toLowerCase() : e.toUpperCase()).join('')
+    return [a,b]
+  };
