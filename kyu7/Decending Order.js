@@ -4,3 +4,5 @@ function descendingOrder(n){
    }
 
    const descendingOrder = n => +[...n.toString()].sort((a,b) => b - a).join('')
+
+   const descendingOrder = n => +[...String(n)].sort((a,b) => +b - +a).join('')
