@@ -15,3 +15,5 @@ function highAndLow(numbers){
     let arr = numbers.split(' ').map(e => +e)
     return `${Math.max(...arr)} ${Math.min(...arr)}`
   }
+
+  const highAndLow = n => `${Math.max(...n.split(' '))} ${Math.min(...n.split(' '))}`
