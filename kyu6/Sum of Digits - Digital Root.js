@@ -16,3 +16,10 @@ function digitalRoot(n) {
   function digital_root(n) {
     return--n%9+1;
   }
+
+  function digitalRoot(n) {
+    while(n.toString().length > 1){
+      n = n.toString().split('').reduce((a,b)=> +a + +b)
+    }
+    return n
+  }
