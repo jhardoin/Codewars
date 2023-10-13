@@ -21,3 +21,10 @@ function getCount(str) {
       [...str].map(e => ['a', 'e', 'i', 'o', 'u'].includes(e) ? count ++ : -1)
       return count
     }
+
+    function getCount(str) {
+      let vowels = ['a', 'e', 'i', 'o', 'u']
+      let count = 0
+      str.split('').map(e => vowels.includes(e) ? count++ : '')
+      return count
+    }
