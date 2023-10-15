@@ -3,3 +3,11 @@ const uniqueInOrder = iterable => {
     if(typeof iterable == 'object' && typeof iterable[0] !== 'number') return iterable.join('').replace(/(.)\1+/g, '$1').split('')
     else return (iterable.join('').replace(/(.)\1+/g, '$1')).split('').map(e => Number(e))
 }
+
+var uniqueInOrder=function(iterable){
+    let result = []
+    for(let i = 0; i < iterable.length; i++){
+       if(iterable[i] !== iterable[i - 1]) result.push(iterable[i])
+    }
+     return result
+  }
