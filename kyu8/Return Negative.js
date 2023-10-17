@@ -8,3 +8,5 @@ function makeNegative(num) {
 }
 
 const makeNegative = num => num < 0 ? num : num * -1
+
+const makeNegative = num => num < 0 ? num : num * -1
