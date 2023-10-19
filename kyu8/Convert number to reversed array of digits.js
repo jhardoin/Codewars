@@ -5,3 +5,5 @@ function digitize(n) {
     }
 
     const digitize = n => n.toString().split('').reverse().map(e => +e)
+
+    const digitize = n => [...n.toString()].reverse().map(e => +e)
