@@ -3,3 +3,5 @@ const stringToNumber = function(str){
   }
 
   const stringToNumber = str => +str
+
+  const stringToNumber = str => +str
