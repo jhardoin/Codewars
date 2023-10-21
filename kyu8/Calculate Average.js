@@ -8,3 +8,5 @@ function findAverage(array) {
   }
 
   const findAverage = array => array.length == 0 ? 0 : array.reduce((a,b) => a + b, 0)/array.length
+
+  const findAverage = array => array.length > 0 ? array.reduce((a,b) => a + b, 0)/array.length : 0
