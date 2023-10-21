@@ -8,3 +8,5 @@ function hero(bullets, dragons){
   }
   
   const hero = (bullets, dragons) => dragons == 0 ? true : bullets/dragons >= 2
+
+  const hero = (bullets, dragons) => bullets/dragons >= 2
