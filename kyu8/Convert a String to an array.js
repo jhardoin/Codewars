@@ -3,3 +3,5 @@ function stringToArray(string){
   }
 
   const stringToArray = string => string.split(' ')
+
+  const stringToArray = string => string.split(' ')
