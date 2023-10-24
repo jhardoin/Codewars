@@ -12,3 +12,5 @@ function countBy(x, n) {
     }
     return z;
   }
+
+  const countBy = (x, n) => Array.from({length:n},(e,i) => x * (i + 1))
