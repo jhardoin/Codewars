@@ -1,0 +1,1 @@
+const solve = arr => arr.map(e => [...new Set(e)].length).reduce((a,b) => a * b)
