@@ -12,3 +12,5 @@ function correct(string){
     }
     return result.join('')
   }
+
+  const correct = string => [...string].map(e => e == ' ' ? ' ' : e == 0 ? 'O' : e == 5 ? 'S' : e == 1 ? 'I' : e).join('')
