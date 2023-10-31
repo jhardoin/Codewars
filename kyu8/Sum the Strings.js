@@ -3,3 +3,5 @@ function sumStr(a,b) {
   }
 
   const sumStr = (a,b) => String(+a + +b)
+
+  const sumStr = (a,b) => String(+a + +b)
