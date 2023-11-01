@@ -23,3 +23,10 @@ function digitalRoot(n) {
     }
     return n
   }
+
+  function digitalRoot(n) {
+    while(String(n).length > 1){
+      n = [...String(n)].reduce((a,b) => +b + a, 0)
+    }
+      return n
+  }
