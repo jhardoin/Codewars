@@ -14,3 +14,10 @@ function duplicateCount(text){
     
    return numLetters.filter(e => e > 1).length
   }
+
+  function duplicateCount(text){
+    let obj = [...text.toLowerCase()].reduce((a,b) => { a[b] = (a[b] || 0) + 1, a 
+                                                    return a }, 
+                                                    {})
+    return Object.values(obj).filter(e => e > 1).length
+  }
