@@ -5,3 +5,5 @@ function spinWords(string){
   }
 
   const spinWords = string => string.split(' ').map(e => e.length >= 5 ? [...e].reverse().join('') : e).join(' ')
+
+  const spinWords = string => string.split(' ').map(e => e.length >= 5 ? [...e].reverse().join('') : e).join(' ')
