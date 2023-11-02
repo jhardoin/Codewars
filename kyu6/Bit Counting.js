@@ -6,3 +6,5 @@ var countBits = function(n) {
     }
   return count
 };
+
+const countBits = n => n.toString(2).split(1).length - 1
