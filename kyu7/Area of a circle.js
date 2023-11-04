@@ -1,0 +1,1 @@
+const circleArea = radius => radius <= 0 ? error : Math.PI * radius ** 2
