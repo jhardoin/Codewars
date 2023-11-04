@@ -1,0 +1,1 @@
+const factorial = n => Array.from({length:n}, (e,i) => i + 1).reduce((a,b) => a * b, 1)
