@@ -9,3 +9,5 @@ function sumMix(x){
   const sumMix = x => +x.reduce((a,b) => +a + +b)
 
   const sumMix = x => x.reduce((a,b) => +b + a, 0)
+
+  const sumMix = x => x.reduce((a,b) => +b + a, 0)
