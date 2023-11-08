@@ -8,3 +8,5 @@ function repeats(arr){
   const repeats = arr => arr.filter(e => arr.indexOf(e) == arr.lastIndexOf(e)).reduce((a,b) => a + b, 0)
 
   const repeats = arr => arr.filter(e => arr.indexOf(e) == arr.lastIndexOf(e)).reduce((a,b) => a + b, 0)
+
+  const repeats = arr => arr.filter(e => arr.indexOf(e) == arr.lastIndexOf(e)).reduce((a,b) => a + b, 0)
