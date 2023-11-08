@@ -5,3 +5,5 @@ function solution(number){
       .filter(e => !(e % 3) || !(e % 5))
       .reduce((a,b) => a + b, 0)
   }
+
+  const solution = number => number < 0 ? 0 : [...new Array(Math.abs(number)).keys()].filter(e => e % 3 == 0 || e % 5 == 0).reduce((a,b) => a + b, 0)
