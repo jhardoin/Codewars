@@ -5,3 +5,5 @@ function numberToString(num) {
   const numberToString = num => String(num)
 
   const numberToString = num => String(num)
+
+  const numberToString = num => String(num)
