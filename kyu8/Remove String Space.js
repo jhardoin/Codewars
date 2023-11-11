@@ -11,3 +11,5 @@ function noSpace(x){
     }
     return arr.join('')
   }
+
+  const noSpace = x => x.split(' ').join('')
