@@ -10,3 +10,5 @@ function lovefunc(flower1, flower2){
   }
 
   const lovefunc = (flower1, flower2) => flower1 % 2 !== flower2 % 2
+
+  const lovefunc = (flower1, flower2) => flower1 % 2 !== flower2 % 2
