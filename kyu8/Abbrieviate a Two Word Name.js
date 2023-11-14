@@ -12,3 +12,6 @@ function abbrevName(name){
     return n[0][0].toUpperCase() + '.' + n[1][0].toUpperCase()
 }
 
+function abbrevName(name){
+    return name.toUpperCase().split(' ')[0][0] + '.' + name.toUpperCase().split(' ')[1][0]
+}
