@@ -11,3 +11,5 @@ function simpleMultiplication(number) {
 const simpleMultiplication = number => (number % 2) ? number * 9 : number * 8
 
 const simpleMultiplication = number => number % 2 ? number * 9 : number * 8
+
+const simpleMultiplication = number => number % 2 ? number * 9 : number * 8
