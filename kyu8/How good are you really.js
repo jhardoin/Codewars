@@ -6,3 +6,8 @@ function betterThanAverage(classPoints, yourPoints) {
     const betterThanAverage = (cP, yP) => (cP.reduce((a,b) => a + b) + yP) / cP.length <= yP
 
     const betterThanAverage = (classPoints, yourPoints) => yourPoints > classPoints.reduce((a,b) => a + b)/classPoints.length
+
+    function betterThanAverage(classPoints, yourPoints) {
+        return yourPoints > classPoints.reduce((a,b) => a + b, 0)/classPoints.length
+      }
+      
