@@ -12,3 +12,5 @@ function fakeBin(x){
   }
 
   const fakeBin = x => [...x].map(e => e < 5 ? 0 : 1).join('')
+
+  const fakeBin = x => [...x].map(e => e < 5 ? 0 : 1).join('')
