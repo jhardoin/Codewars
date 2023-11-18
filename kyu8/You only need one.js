@@ -5,3 +5,5 @@ function check(a, x) {
   const check = (a, x) => a.includes(x)
 
   const check = (a, x) => a.includes(x)
+
+  const check = (a, x) => a.includes(x)
