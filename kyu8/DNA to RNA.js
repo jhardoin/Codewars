@@ -3,3 +3,5 @@ function DNAtoRNA(dna) {
   }
 
   const DNAtoRNA = dna => [...dna].map(e => e == 'T' ? 'U' : e).join('')
+
+  const DNAtoRNA = dna => [...dna].map(e => e == 'T' ? 'U' : e).join('')
