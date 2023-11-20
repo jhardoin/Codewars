@@ -5,3 +5,5 @@ function greet (name, owner) {
 const greet = (name, owner) => name == owner ? 'Hello boss' : 'Hello guest'
 
 const greet = (name, owner) => name == owner ? 'Hello boss' : 'Hello guest'
+
+const greet = (name, owner) => owner == name ? 'Hello boss' : 'Hello guest'
