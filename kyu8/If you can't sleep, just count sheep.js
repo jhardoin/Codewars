@@ -8,3 +8,5 @@ var countSheep = function (num){
   }
 
   var countSheep = num => num == 0 ? '' : Array.from({length:num}, (v,i) => (i+1) + ' sheep...').join('')
+
+  var countSheep = num => [...Array(num)].map((e,i) => (i+1) + ' sheep...').join('')
