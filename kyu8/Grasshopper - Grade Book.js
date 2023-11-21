@@ -16,3 +16,8 @@ function getGrade (s1, s2, s3) {
   let x = (s1+s2+s3)/3
   return x >= 90 ? 'A' : x >= 80 ? 'B' : x >= 70 ? 'C' : x >= 60 ? 'D' : 'F'
 }
+
+function getGrade (s1, s2, s3) {
+  let a = (s1+s2+s3)/ 3
+  return a >= 90 ? 'A' : a >= 80 ? 'B' : a >= 70 ? 'C' : a >= 60 ? 'D' : 'F'
+}
