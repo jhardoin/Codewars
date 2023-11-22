@@ -15,3 +15,5 @@ function points(games) {
   function points(games, count = 0) { games.forEach(e => e[0] > e[2] ? count += 3 : e[0] == e[2] ? count++ : '')
   return count
 }
+
+const points = games => games.map(e => e[0] > e[2] ? 3 : e[0] == e[2] ? 1 : 0).reduce((a,b) => a + b, 0)
