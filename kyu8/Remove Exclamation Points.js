@@ -11,3 +11,5 @@ function removeExclamationMarks(s) {
   }
   return arr.join('')
 }
+
+const removeExclamationMarks = s => [...s].filter(e => e !== '!').join('')
