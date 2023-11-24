@@ -8,3 +8,5 @@ function doubleChar(str) {
 const doubleChar = str => [...str].map(e => e+e).join('')
 
 const doubleChar = str => [...str].map(e => e+e).join('')
+
+const doubleChar = str => [...str].map(e => e + e).join('')
