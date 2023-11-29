@@ -11,3 +11,7 @@ function strCount(str, letter){
   }
 
   const strCount = (str, letter) => [...str].filter(e => e == letter).length
+
+  function strCount(str, letter){  
+    return str.split(letter).length - 1
+  }
