@@ -7,3 +7,7 @@ String.prototype.isUpperCase = function() {
   String.prototype.isUpperCase = function() {
     return this.toUpperCase() == this.toString()
   }
+
+  String.prototype.isUpperCase = function() {
+    return this == this.toUpperCase()
+  }
