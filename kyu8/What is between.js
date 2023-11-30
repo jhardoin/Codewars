@@ -16,3 +16,7 @@ function between(a, b) {
   }
 
   const between = (a, b) => Array.from({length: b-a + 1}, (_,i) => i + a)
+
+  function between(a, b) {
+    return Array.from({length:b-a + 1},(e,i) => i + a)
+  }
