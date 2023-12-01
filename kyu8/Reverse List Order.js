@@ -3,3 +3,7 @@ function reverseList(list) {
   }
 
   const reverseList = list => list.reverse()
+
+  function reverseList(list) {
+    return list.reverse()
+  }
