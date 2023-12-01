@@ -6,3 +6,7 @@ function findDifference(a, b) {
   }
 
   const findDifference = (a, b) => Math.abs((a.reduce((a,b) => a * b)) - (b.reduce((a,b) => a * b)))
+
+  function findDifference(a, b) {
+    return Math.abs(a.reduce((a,b)=> a * b) - b.reduce((a,b)=> a * b))
+}
