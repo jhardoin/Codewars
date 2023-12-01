@@ -5,3 +5,7 @@ function sumStr(a,b) {
   const sumStr = (a,b) => String(+a + +b)
 
   const sumStr = (a,b) => String(+a + +b)
+
+  function sumStr(a,b) {
+    return String(+a + +b)
+  }
