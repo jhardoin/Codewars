@@ -3,3 +3,7 @@ function fixTheMeerkat(arr) {
    }
 
    const fixTheMeerkat = arr => arr.reverse()
+
+   function fixTheMeerkat(arr) {
+    return arr.reverse()
+  }
