@@ -5,3 +5,7 @@ function twoSort(s) {
   }
 
   const twoSort = s => [...s.sort()[0]].join('***')
+
+  function twoSort(s) {
+    return [...s.sort()[0]].join('***')
+  }
