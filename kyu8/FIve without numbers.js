@@ -4,3 +4,7 @@ function unusualFive() {
   }
 
   const unusualFive = () => 'abcde'.length
+
+  function unusualFive() {
+    return 'abcde'.length
+  }
