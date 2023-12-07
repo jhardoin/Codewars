@@ -3,3 +3,7 @@ function distinct(a) {
   }
 
   const distinct = a => Array.from(new Set(a))
+
+  function distinct(a) {
+    return [...new Set(a)]
+  }
