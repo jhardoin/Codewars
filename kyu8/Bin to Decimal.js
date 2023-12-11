@@ -3,3 +3,7 @@ function binToDec(bin){
   }
 
   const binToDec = bin => parseInt(bin, 2)
+
+  function binToDec(bin) {
+    return parseInt(bin, 2)
+  }
