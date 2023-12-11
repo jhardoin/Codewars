@@ -3,3 +3,7 @@ function hexToDec(hexString){
   }
 
   const hexToDec = hexString => parseInt(hexString, 16)
+
+  function hexToDec(hexString){
+    return parseInt(hexString, 16)
+}
