@@ -10,3 +10,8 @@ function shortcut (string) {
     }
     return result.join('')
   }
+
+  function shortcut (string) {
+    let vowels = ['a', 'e', 'i', 'o', 'u']
+    return [...string].filter(e => !vowels.includes(e)).join('')
+  }
