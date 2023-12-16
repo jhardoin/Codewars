@@ -4,3 +4,8 @@ function getSize(width, height, depth) {
     return [area,volume]
     }
   
+
+    function getSize(width, height, depth){
+        return [2 * (height * width + width * depth + height * depth), width * height * depth]
+      }
+      
