@@ -6,3 +6,7 @@ function sumMul(n,m){
       }
     return solution
   }
+
+  function sumMul(n,m){
+    return m/n > 0 ? Array.from( {length:Math.floor((m-1)/n)} , (e,i) => (i + 1) * n).reduce((a,b)=>a+b, 0) : 'INVALID'
+  }
