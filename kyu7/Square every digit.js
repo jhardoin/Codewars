@@ -9,3 +9,7 @@ function squareDigits(num){
 const squareDigits = num => +[...num.toString()].map(e => +e * +e).join('')
 
 const squareDigits = num => +[...num.toString()].map(e => (e ** 2).toString()).join('')
+
+function squareDigits(num){
+    return +[...String(num)].map(e => e * e).join('')
+  }
