@@ -19,3 +19,8 @@ function highAndLow(numbers){
   const highAndLow = n => `${Math.max(...n.split(' '))} ${Math.min(...n.split(' '))}`
 
   const highAndLow = numbers =>`${Math.max(...numbers.split(' '))} ${Math.min(...numbers.split(' '))}`
+
+  function highAndLow(numbers){
+    let arr = numbers.split(' ')
+    return [Math.max(...arr), Math.min(...arr)].join(' ')
+  }
