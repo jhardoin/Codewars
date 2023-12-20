@@ -4,3 +4,7 @@ function findShort(s){
   }
 
   const findShort = s => Math.min(...s.split(' ').map(e => e.length))
+
+  function findShort(s){
+    return Math.min(...s.split(' ').map(e => e.length))
+  }
