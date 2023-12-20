@@ -7,3 +7,7 @@ function XO(str) {
 function XO(str) {
     return [...str].filter(e => e.toLowerCase() == 'x').length == [...str].filter(e => e.toLowerCase() == 'o').length
 }
+
+function XO(str) {
+    return [...str].filter(e => e.toLowerCase() == 'o').length == [...str].filter(e => e.toLowerCase() == 'x').length
+}
