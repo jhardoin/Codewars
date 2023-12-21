@@ -5,3 +5,7 @@ function DNAStrand(dna){
   }
 
   const DNAStrand = dna =>[...dna].map(e => e == 'A' ? 'T' : e == 'T' ? 'A' : e == 'C' ? 'G' : 'C').join('')
+
+  function DNAStrand(dna){
+    return [...dna].map(e => e == 'T' ? 'A' : e == 'A' ? 'T' : e == 'G' ? 'C' : 'G').join('')
+  }
