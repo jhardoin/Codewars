@@ -10,3 +10,5 @@ var capitals = function (word) {
       return cap
                                
     };
+
+    var capitals = word => [...word].map((e, i) => e == e.toUpperCase() ? i : -1).filter((e)=> e >= 0)
