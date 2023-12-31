@@ -10,3 +10,7 @@ function capitalize(s){
     let b = [...s].map((e,i) => !(i% 2) ? e.toLowerCase() : e.toUpperCase()).join('')
     return [a,b]
   };
+
+  function capitalize(s){
+    return [[...s].map((e,i) => i % 2 == 0? e.toUpperCase() : e).join(''), [...s].map((e,i) => i % 2 ? e.toUpperCase() : e).join('')]
+  };
