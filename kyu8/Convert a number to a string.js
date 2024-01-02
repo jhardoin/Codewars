@@ -7,3 +7,7 @@ function numberToString(num) {
   const numberToString = num => String(num)
 
   const numberToString = num => String(num)
+
+  function numberToString(num) {
+    return num.toString()
+  }
