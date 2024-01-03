@@ -12,3 +12,7 @@ const makeNegative = num => num < 0 ? num : num * -1
 const makeNegative = num => num < 0 ? num : num * -1
 
 const makeNegative = num => num > 0 ? num * -1 : num
+
+function makeNegative(num) {
+  return num > 0 ? num * -1 : num
+}
