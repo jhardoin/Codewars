@@ -9,3 +9,7 @@ function positiveSum(arr) {
   const positiveSum = arr => arr.filter(e => e > 0).reduce((a,b) => a + b, 0)
 
   const positiveSum = arr => arr.filter(e => e > 0).reduce((a,b) => a + b, 0)
+
+  function positiveSum(arr) {
+    return arr.filter(e => e > 0).reduce((a,b) => a + b, 0)
+  }
