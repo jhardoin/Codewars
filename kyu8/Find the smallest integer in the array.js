@@ -9,3 +9,9 @@ class SmallestIntegerFinder {
       return Math.min(...args)
     }
   }
+
+  class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      return Math.min(...args)
+    }
+  }
