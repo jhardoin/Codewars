@@ -13,3 +13,7 @@ function noSpace(x){
   }
 
   const noSpace = x => x.split(' ').join('')
+
+  function noSpace(x){
+    return x.split(' ').join('')
+  }
