@@ -9,3 +9,7 @@ function digitize(n) {
     const digitize = n => [...n.toString()].reverse().map(e => +e)
 
     const digitize = n => [...String(n)].reverse().map(e => +e)
+
+    function digitize(n) {
+        return [...String(n)].reverse().map(e => +e)
+      }
