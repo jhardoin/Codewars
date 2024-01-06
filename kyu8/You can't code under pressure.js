@@ -3,3 +3,5 @@ function doubleInteger(i) {
 }
 
 const doubleInteger = i =>  i * i
+
+const doubleInteger = i =>  i * 2
