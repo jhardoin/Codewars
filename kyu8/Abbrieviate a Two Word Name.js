@@ -15,3 +15,8 @@ function abbrevName(name){
 function abbrevName(name){
     return name.toUpperCase().split(' ')[0][0] + '.' + name.toUpperCase().split(' ')[1][0]
 }
+
+function abbrevName(name){
+    let s = name.toUpperCase().split(' ')
+    return `${s[0][0]}.${s[1][0]}`
+}
