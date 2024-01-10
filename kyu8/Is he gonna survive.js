@@ -12,3 +12,8 @@ function hero(bullets, dragons){
   const hero = (bullets, dragons) => bullets/dragons >= 2
 
   const hero = (bullets, dragons) => bullets/dragons >= 2
+
+  function hero(bullets, dragons){
+    return dragons ? bullets/dragons >= 2 : true
+  }
+  
