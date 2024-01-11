@@ -18,3 +18,8 @@ function bmi(weight, height) {
     let b = weight/(height ** 2)
     return b <= 18.5 ? 'Underweight' : b <= 25 ? 'Normal' : b <= 30 ? 'Overweight' : 'Obese'
   }
+
+  function bmi(weight, height) {
+    let b = weight/height**2
+    return b <= 18.5 ? 'Underweight' : b <= 25 ? 'Normal' : b <= 30 ? 'Overweight' : 'Obese'
+  }
