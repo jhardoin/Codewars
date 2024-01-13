@@ -16,3 +16,7 @@ function countBy(x, n) {
   const countBy = (x, n) => Array.from({length:n},(e,i) => x * (i + 1))
 
   const countBy = (x, n) => [...Array(n)].map((_,i) => (i+1) * x)
+
+  function countBy(x, n) {
+    return Array.from({length:n}, (e,i) => (i + 1) * x)
+  }
