@@ -21,3 +21,9 @@ const points = games => games.map(e => e[0] > e[2] ? 3 : e[0] == e[2] ? 1 : 0).r
 function points(games) {
   return games.reduce((a,b) => a += b[0]>b[2] ? 3 : b[0]==b[2] ? 1 : 0, 0)
 }
+
+function points(games) {
+  let count = 0
+  games.map(e => e[0] > e[2] ? count += 3 : e[0] == e[2] ? count++ : -1)
+  return count
+}
