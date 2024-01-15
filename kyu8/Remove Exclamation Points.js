@@ -13,3 +13,7 @@ function removeExclamationMarks(s) {
 }
 
 const removeExclamationMarks = s => [...s].filter(e => e !== '!').join('')
+
+function removeExclamationMarks(s) {
+  return [...s].filter(e => e !== '!').join('')
+}
