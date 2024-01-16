@@ -9,3 +9,7 @@ function updateLight(current) {
   const updateLight = current => current == 'red' ? 'green' : current == 'yellow' ? 'red' : 'yellow'
 
   const updateLight = current => current == 'green' ? 'yellow' : current == 'yellow' ? 'red' : 'green'
+
+  function updateLight(current) {
+    return current == 'green' ? 'yellow' : current == 'yellow' ? 'red' : 'green'
+  }
