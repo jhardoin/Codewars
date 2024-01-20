@@ -20,3 +20,7 @@ function between(a, b) {
   function between(a, b) {
     return Array.from({length:b-a + 1},(e,i) => i + a)
   }
+
+  function between(a, b) {
+    return Array.from({length:b-a + 1},(e,i) => i + a)
+  }
