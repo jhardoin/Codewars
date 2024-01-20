@@ -7,3 +7,7 @@ const enough = (cap, on, wait) => on + wait <= cap ? 0 : Math.abs(cap - on - wai
 function enough(cap, on, wait) {
     return cap - on - wait >= 0 ? 0 : Math.abs(cap - on - wait)
   }
+
+  function enough(cap, on, wait) {
+    return cap - on - wait < 0 ? Math.abs(cap - on - wait) : 0
+  }
