@@ -7,3 +7,7 @@ const removeEveryOther = arr => arr.filter((e,i) => !(i % 2))
 function removeEveryOther(arr){
     return arr.filter((e,i) => !(i % 2))
   }
+
+  function removeEveryOther(arr){
+    return arr.filter((e,i) => i % 2 == 0)
+  }
