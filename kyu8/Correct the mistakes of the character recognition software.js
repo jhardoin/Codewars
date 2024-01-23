@@ -18,3 +18,7 @@ function correct(string){
   function correct(string){
     return [...string].map(e => e === '0' ? 'O' : e === '5' ? 'S' : e === '1' ? 'I' : e).join('')
   }
+
+  function correct(string){
+    return [...string].map(e => e === '0' ? 'O' : e === '5' ? 'S' : e === '1' ? 'I' : e).join('')
+  }
