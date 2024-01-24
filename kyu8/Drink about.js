@@ -15,3 +15,7 @@ function peopleWithAgeDrink(old) {
   function peopleWithAgeDrink(old) {
     return old >= 21 ? "drink whisky" : old >= 18 ? "drink beer" : old >= 14 ? "drink coke" : "drink toddy"
   }
+
+  function peopleWithAgeDrink(old) {
+    return old < 14 ? 'drink toddy' : old < 18 ? 'drink coke' : old < 21 ? 'drink beer' : 'drink whisky'
+  };
