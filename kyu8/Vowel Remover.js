@@ -15,3 +15,7 @@ function shortcut (string) {
     let vowels = ['a', 'e', 'i', 'o', 'u']
     return [...string].filter(e => !vowels.includes(e)).join('')
   }
+
+  function shortcut (string) {
+    return [...string].filter(e => !'aeiou'.includes(e)).join('')
+  }
