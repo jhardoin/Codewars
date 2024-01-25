@@ -20,3 +20,6 @@ function findMultiples(integer, limit) {
     return Array.from({length:Math.floor(limit/integer)}, (e,i) => (i + 1) * integer)
   }
   
+  function findMultiples(integer, limit) {
+    return Array.from({length:Math.floor(limit/integer)}, (e,i) => (i + 1) * integer)
+  }
