@@ -4,3 +4,5 @@ function stringy(size) {
   }
 
   const stringy = x => ''.padStart(x,'10');
+
+  const stringy = x => ''.padStart(x,'10')
