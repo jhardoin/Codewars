@@ -12,3 +12,7 @@ const helloWorld = (somewords) => {
         var str="Hello World!";
         console.log(str);
       }
+
+      function helloWorld(){
+        let str = console.log('Hello World!')
+      }
