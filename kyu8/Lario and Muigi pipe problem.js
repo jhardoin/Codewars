@@ -16,3 +16,7 @@ function pipeFix(numbers){
   function pipeFix(numbers){
     return Array.from({length:numbers[numbers.length - 1] - numbers[0] + 1}, (e,i) => i + numbers[0])
   }
+
+  function pipeFix(numbers){
+    return Array.from({length:numbers[numbers.length - 1] - numbers[0] + 1}, (e,i) => i + numbers[0])
+  }
