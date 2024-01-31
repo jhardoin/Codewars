@@ -5,3 +5,7 @@ const mouthSize = animal => animal.toLowerCase() == 'alligator' ? 'small' : 'wid
 function mouthSize(animal) {  
     return animal.toLowerCase() == 'alligator' ? 'small' : 'wide'
 }
+
+function mouthSize(animal) {
+    return animal.toLowerCase() == 'alligator' ? 'small' : 'wide'
+}
