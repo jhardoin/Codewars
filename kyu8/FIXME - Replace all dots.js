@@ -7,3 +7,7 @@ var replaceDots = function(str) {
   var replaceDots = function(str) {
     return [...str].map(e => e == '.' ? '-' : e).join('')
   }
+
+  var replaceDots = function(str) {
+    return str.split('.').join('-')
+  }
