@@ -4,3 +4,7 @@ function dutyFree(normPrice, discount, hol){
 }
 
 const dutyFree = (normPrice, discount, hol) => Math.floor(hol / (normPrice * discount/100))
+
+function dutyFree(normPrice, discount, hol){
+    return Math.floor(hol / (normPrice * discount/100))
+  }
