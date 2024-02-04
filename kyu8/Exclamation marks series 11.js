@@ -11,3 +11,7 @@ function replace(s){
     let vowel = ['a','e','i','o','u','A','E','I','O','U']
     return [...s].map(e => vowel.includes(e) ? '!' : e).join('')
   }
+
+  function replace(s){
+    return [...s].map(e => 'aeiou'.includes(e.toLowerCase()) ? '!' : e).join('')
+  }
