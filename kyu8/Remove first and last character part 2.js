@@ -7,3 +7,8 @@ function array(string) {
     if(string.split(',').length < 3) return null
     else return string.split(',').slice(1,string.split(',').length - 1).join(' ')
   }
+
+  function array(string) {
+    let split = string.split(',')
+    return split.length < 3 ? null : split.slice(1,-1).join(' ')
+  }
