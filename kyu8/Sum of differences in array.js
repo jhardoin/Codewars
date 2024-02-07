@@ -10,3 +10,8 @@ function sumOfDifferences(arr) {
   function sumOfDifferences(arr) {
     return arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0;
 }
+
+const sumOfDifferences = arr => arr
+  .sort((a, b) => b - a)
+  .map((e, i) => e - arr[i + 1] || 0)
+  .reduce((a, b) => a + b, 0)
