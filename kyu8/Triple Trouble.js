@@ -7,3 +7,7 @@ function tripleTrouble(one, two, three){
    }
 
    const tripleTrouble = (one, two, three) => one.split("").map((e, i) => e + two[i] + three[i]).join("")
+
+   function tripleTrouble(one, two, three){
+    return [...one].map((e,i) => e + two[i] + three[i]).join('')
+   }
