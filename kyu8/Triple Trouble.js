@@ -5,3 +5,5 @@ function tripleTrouble(one, two, three){
     }
     return finalString
    }
+
+   const tripleTrouble = (one, two, three) => one.split("").map((e, i) => e + two[i] + three[i]).join("")
