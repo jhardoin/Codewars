@@ -8,3 +8,5 @@ function stairsIn20(s){
     let saturday = s[6].reduce((a,c) => a + c);
     return 20 * (sunday + monday + tuesday + wednesday + thursday + friday + saturday)
     }
+
+    const stairsIn20 = s => s.flat().reduce((a,b)=> a + b ,0) * 20
