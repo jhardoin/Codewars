@@ -5,3 +5,7 @@ function billboard(name, price = 30){
     }
     return solution
   } 
+
+  function billboard(name, price = 30){
+    return name.length / (1/price)
+  } 
