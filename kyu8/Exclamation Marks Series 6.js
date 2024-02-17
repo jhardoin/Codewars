@@ -6,3 +6,7 @@ function remove(s,n){
     }
     return input;
   }
+
+  function remove(s,n){
+    return s.split('').filter(e => e != '!' || n-- <= 0).join('');
+  }
