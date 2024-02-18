@@ -6,3 +6,10 @@ function pickIt(arr){
     }
     return [odd,even];
   }
+
+  function pickIt(arr){
+    var odd=[],even=[];
+    arr.map(e => e % 2 == 0 ? even.push(e) : odd.push(e))
+    
+    return [odd,even];
+  }
