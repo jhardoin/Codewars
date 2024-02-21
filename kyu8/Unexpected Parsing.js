@@ -4,3 +4,10 @@ function getStatus(isBusy) {
       status: msg
     }
   }
+
+  function getStatus(isBusy) {
+    var msg = (isBusy ? "busy" : "available");
+    return {
+      status: msg
+    }
+  }
