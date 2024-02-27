@@ -5,3 +5,8 @@ function isOpposite(s1,s2){
     }
     return true;
   }
+
+  function isOpposite(s1,s2){
+    if(s1.length !== s2.length) return false
+    return [...new Set([...s1].map((e,i) => e !== s2[i]))].join(' ') === 'true'
+  }
