@@ -13,3 +13,7 @@ const squareDigits = num => +[...num.toString()].map(e => (e ** 2).toString()).j
 function squareDigits(num){
     return +[...String(num)].map(e => e * e).join('')
   }
+
+  function squareDigits(num){
+    return +[...num.toString()].map(e => e ** 2).join('')
+  }
