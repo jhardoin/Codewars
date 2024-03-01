@@ -35,3 +35,9 @@ function getCount(str) {
       str.split('').map(e => vowels.includes(e) ? count++ : e)
       return count
     }
+
+    function getCount(str) {
+      let count = 0
+      str.split('').map(e => 'aeiou'.includes(e) ? count++ : 1)
+      return count
+    }
