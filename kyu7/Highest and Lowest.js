@@ -24,3 +24,7 @@ function highAndLow(numbers){
     let arr = numbers.split(' ')
     return [Math.max(...arr), Math.min(...arr)].join(' ')
   }
+
+  function highAndLow(numbers){
+    return `${Math.max(...numbers.split(' '))} ${Math.min(...numbers.split(' '))}`
+  }
