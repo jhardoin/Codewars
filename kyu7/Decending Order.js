@@ -10,3 +10,7 @@ function descendingOrder(n){
    function descendingOrder(n){
     return +[...String(n)].sort((a,b) => b - a).join('')
 }
+
+function descendingOrder(n){
+    return +[...n.toString()].sort((a,b) => b - a).join('')
+}
