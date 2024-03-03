@@ -15,3 +15,7 @@ function accum(s) {
 function accum(s) {
 	return [...s].map((e,i) => e.repeat(i+1)).map(e => e[0].toUpperCase() + e.slice(1).toLowerCase()).join('-')
 }
+
+function accum(s) {
+	return [...s].map((e,i) => e[0].toUpperCase() + e.repeat(i).toLowerCase()).join('-')
+}
