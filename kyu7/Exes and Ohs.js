@@ -11,3 +11,10 @@ function XO(str) {
 function XO(str) {
     return [...str].filter(e => e.toLowerCase() == 'o').length == [...str].filter(e => e.toLowerCase() == 'x').length
 }
+
+function XO(str) {
+    let x = 0
+    let o = 0
+    str.toLowerCase().split('').map(e => e == 'x' ? x++ : e == 'o' ? o++ : 0)
+    return x == o
+  }
