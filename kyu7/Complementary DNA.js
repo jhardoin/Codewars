@@ -9,3 +9,7 @@ function DNAStrand(dna){
   function DNAStrand(dna){
     return [...dna].map(e => e == 'T' ? 'A' : e == 'A' ? 'T' : e == 'G' ? 'C' : 'G').join('')
   }
+
+  function dnaStrand(dna){
+    return [...dna].map(e => e == 'A' ? 'T' : e == 'T' ? 'A' : e == 'G' ? 'C' : 'G').join('')
+  }
