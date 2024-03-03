@@ -8,3 +8,7 @@ function findShort(s){
   function findShort(s){
     return Math.min(...s.split(' ').map(e => e.length))
   }
+
+  function findShort(s){
+    return Math.min(...s.split(' ').map(e => e.length))
+  }
