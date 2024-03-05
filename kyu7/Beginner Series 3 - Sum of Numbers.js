@@ -17,3 +17,8 @@ function getSum(a, b){
         max = Math.max(a, b);
     return (max - min + 1) * (min + max) / 2;
   }
+
+  function getSum(a, b){
+    return a == b ? a : Array.from({length:Math.max(a,b) - Math.min(a,b) + 1}, (e,i) => i + Math.min(a,b)).
+    reduce((a,b) => a + b, 0)
+ }
