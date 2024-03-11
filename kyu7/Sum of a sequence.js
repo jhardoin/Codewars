@@ -22,3 +22,8 @@ const sequenceSum = (begin, end, step) => {
     }
     return sum;
   }
+
+  const sequenceSum = (begin, end, step) => {
+    let n = Math.floor((end - begin) / step + 1);
+    return n <= 0 ? 0 : n * (begin + (begin + (n - 1) * step)) / 2;
+  }
