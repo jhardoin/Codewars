@@ -10,3 +10,9 @@ function twoOldestAges(ages){
   
 
   const twoOldestAges = (ages) => ages.sort((a, b) => a - b).slice(-2)
+
+  function twoOldestAges(ages){
+    let sorted = ages.sort((a,b) => b - a)
+    return [sorted[1], sorted[0]]
+  }
+  
