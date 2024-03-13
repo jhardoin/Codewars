@@ -13,3 +13,7 @@ function reverseLetter(str) {
     let alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     return [...str].filter(e => alphabet.includes(e)).reverse().join('')
   }
+
+  function reverseLetter(str) {
+    return [...str].filter(e => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.includes(e)).reverse().join('')
+  }
