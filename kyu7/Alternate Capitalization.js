@@ -14,3 +14,8 @@ function capitalize(s){
   function capitalize(s){
     return [[...s].map((e,i) => i % 2 == 0? e.toUpperCase() : e).join(''), [...s].map((e,i) => i % 2 ? e.toUpperCase() : e).join('')]
   };
+
+  function capitalize(s){
+    let t = [...s]
+    return [t.map((e,i) => i % 2 == 0 ? e.toUpperCase() : e.toLowerCase()).join(''), t.map((e,i) => i % 2 !== 0 ? e.toUpperCase() : e.toLowerCase()).join('')]
+  }
