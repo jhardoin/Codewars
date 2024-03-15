@@ -12,3 +12,9 @@ function solve(s){
     s.split('').map(e => e == e.toUpperCase() ? upper++ : lower++)
     return lower >= upper ? s.toLowerCase() : s.toUpperCase()
 }
+
+function solve(s){
+    let upper = [...s].filter(e => e == e.toUpperCase()).length
+    let lower = [...s].filter(e => e == e.toLowerCase()).length
+    return lower >= upper ? s.toLowerCase() : s.toUpperCase()
+  }
