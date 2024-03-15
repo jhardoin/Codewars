@@ -23,3 +23,9 @@ function checkExam(array1, array2) {
   }
 
   const checkExam = (arr1, arr2) => Math.max(arr2.reduce((score, answer, i) => answer === arr1[i] ? score + 4 : answer === '' ? score : score - 1, 0), 0)
+
+  function checkExam(array1, array2) {
+    let count = 0
+    array2.map((e,i) => e == ''  ? 0 : e == array1[i] ? count += 4 : count -= 1 )
+    return count > 0 ? count : 0
+  }
