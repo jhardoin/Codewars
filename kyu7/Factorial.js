@@ -11,3 +11,9 @@ function factorial(n){
       f *= n--;
     return f
   }
+
+  function factorial(n){
+    let r = 1
+    while (n > 1) r *= n--
+    return r
+  }
