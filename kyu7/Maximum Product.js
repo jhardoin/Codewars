@@ -5,3 +5,7 @@ function adjacentElementsProduct(array) {
     }
     return Math.max(...result)
   }
+
+  function adjacentElementsProduct(array) {
+    return Math.max(...array.map((e, i)=> e * array[i - 1]).slice(1));
+  }
