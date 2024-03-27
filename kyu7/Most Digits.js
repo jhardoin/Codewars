@@ -3,3 +3,7 @@ function findLongest(array) {
   arr.sort((a, b) => b[0] - a[0]);
   return array[arr[0][1]];
 }
+
+function findLongest(array){
+  return array.reduce((a, b) => (`${b}`.length > `${a}`.length) ? b : a)
+}
