@@ -3,3 +3,9 @@ function divCon(x){
     let str = x.filter(e => typeof e == 'string').map(e => Number(e)).reduce((a,b) => a + b, 0)
     return int - str
   }
+
+  function divCon(x){
+    let nums = x.filter(e => typeof e == 'number').reduce((a,b) => a + b, 0)
+    let string = x.filter(e => typeof e == 'string').reduce((a,b) => a + +b, 0)
+    return nums - string
+  }
