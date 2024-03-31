@@ -8,3 +8,13 @@ function halvingSum(n) {
   
     return sum;
   }
+
+  function halvingSum(n) {
+    let array = []
+      while(n > 0){
+        array.push(n)
+        n = Math.floor(n/2)
+      }
+    return array.reduce((a,b) => a + b, 0)
+  }
+  
