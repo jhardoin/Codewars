@@ -12,3 +12,8 @@ const orderedCount = (text) =>{
     let array = [...new Set([...text])]
      return array.map(e => [e, [...text].filter(el => e == el).length])
   }
+
+  function orderedCount(text) {
+    let arr = [...new Set([...text])]
+    return arr.map(e => [e, [...text].filter(el => e == el).length])
+  }
