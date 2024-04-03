@@ -9,3 +9,5 @@ const findDigit = (num, nth) => {
     }
     return +numStr[numStr.length - nth];
   };
+
+  const findDigit = (num, nth) => nth > 0 ? +[...`${num}`].reverse()[nth - 1] || 0 : -1;
