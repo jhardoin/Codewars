@@ -7,3 +7,10 @@ function calc(x){
     total2 = total1.replace(/7/g, '1');
     return total1.split('').reduce((a, b) => parseInt(a) + parseInt(b)) - total2.split('').reduce((a, b) => parseInt(a) + parseInt(b));
   }
+
+  const calc = x => {
+    let total1 = [...x].map(e => e.charCodeAt()).join('')
+    let total2 = [...total1].map(e => e == 7 ? 1 : e).join('')
+    
+    return [...total1].reduce((a,b)=> a + +b, 0) - [...total2].reduce((a,b)=> a + +b, 0)
+  }
