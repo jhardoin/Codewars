@@ -8,3 +8,9 @@ function mostFrequentItemCount(collection) {
     const maxFrequency = Math.max(...Object.values(frequencyCount))
     return maxFrequency || 0
   }
+
+  function mostFrequentItemCount(collection) {
+    let a = [...new Set([...collection])]
+    let num = a.map(e => collection.filter(el => e == el).length)
+    return collection.length ? Math.max(...num) : 0
+  }
