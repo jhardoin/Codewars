@@ -6,3 +6,7 @@ function alternateCase(s) {
     }
     return result.join('')
   }
+
+  function alternateCase(s) {
+    return [...s].map(e => e == e.toUpperCase() ? e.toLowerCase() : e.toUpperCase()).join('')
+  }
