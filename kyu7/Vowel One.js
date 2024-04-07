@@ -6,3 +6,7 @@ function vowelOne(s){
     }
     return result.join('')
   }
+
+  function vowelOne(s){
+    return [...s].map(e => 'aeiouAEIOU'.includes(e) ? 1 : 0).join('')
+  }
