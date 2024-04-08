@@ -4,3 +4,7 @@ function getMissingElement(superImportantArray){
       if(sorted[i] !== i) return i
     }
   }
+
+  function getMissingElement(superImportantArray) {
+    return superImportantArray.reduce((a, b) => a - b, 45)
+  }
