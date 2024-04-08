@@ -4,3 +4,7 @@ function tidyNumber(n){
     
     return arr.every((v, i) => v === sorted[i])
   }
+
+  function tidyNumber(n){
+    return n == +[...n.toString()].sort((a,b) => a - b).join("")
+  }
