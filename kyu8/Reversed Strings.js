@@ -11,3 +11,7 @@ function solution(str){
   function solution(str){
     return [...str].reverse().join('')
   }
+
+  function solution(str){
+    return [...str].reverse().join('')
+  }
