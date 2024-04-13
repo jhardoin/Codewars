@@ -7,3 +7,7 @@ function findOdd(A) {
     }, {})
     return +Object.entries(reduced).filter(e => e[1] % 2)[0][0]
   }
+
+  function findOdd(A) {
+    return A.find((e) => A.filter((n) => e === n).length % 2 !== 0)
+  }
