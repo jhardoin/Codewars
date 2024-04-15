@@ -8,3 +8,7 @@ var countBits = function(n) {
 };
 
 const countBits = n => n.toString(2).split(1).length - 1
+
+var countBits = function(n) {
+  return [...n.toString(2)].filter(e => e == '1').length
+}
