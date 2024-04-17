@@ -16,3 +16,12 @@ function persistence(num) {
    }
   return count
 }
+
+function persistence(num) {
+  let count = 0
+  while(num.toString().length > 1){
+    num = [...num.toString()].reduce((a,b) => a * b, 1)
+    count++
+  }
+ return count
+}
