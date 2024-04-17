@@ -11,3 +11,7 @@ var uniqueInOrder=function(iterable){
     }
      return result
   }
+
+  var uniqueInOrder=function(iterable){
+    return [...iterable].filter((e, i) => e !== iterable[i-1])
+  }
