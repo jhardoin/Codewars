@@ -24,3 +24,12 @@ function isValidWalk(walk) {
       return false
     }
     }
+
+    function isValidWalk(walk) {
+      const north = walk.filter(e => e === "n" ).length;
+      const south = walk.filter(e => e === "s" ).length;
+      const east = walk.filter(e =>  e === "e" ).length;
+      const west = walk.filter(e => e === "w" ).length;
+      
+      return walk.length === 10 && north === south && east === west;
+    }
