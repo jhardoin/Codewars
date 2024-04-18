@@ -9,3 +9,14 @@ function order(words) {
     let order = words.split(' ').map(e => [...e].filter(e => nums.includes(...e))).flat()
     return order.map((e,i) => [e, words.split(' ')[i]]).sort().map(e => e[1]).join(' ')
   }
+
+  function order(words) {
+    let result = []
+    let items = words.split(' ')
+    
+    for (let i = 1; i < items.length + 1; i++) {
+      result.push(items.find(e => e.includes(i)));
+    }
+    
+    return result.join(' ');
+  }
