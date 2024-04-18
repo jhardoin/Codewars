@@ -11,3 +11,8 @@ function isPangram(string){
     let letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
      return new Set([...s.split(' ').join('').toLowerCase()].filter(e => letters.includes(e))).size == 26
   }
+
+  function isPangram(string){
+    let a = 'abcdefghijklmnopqrstuvwxyz'
+    return [...new Set([...string.toLowerCase()].filter(e => a.includes(e)))].length == 26
+  }
