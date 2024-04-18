@@ -19,3 +19,8 @@ function moveZeros(arr) {
     arr.forEach(e => e === 0 ? arr2.push(e) : arr1.push(e))
     return arr1.concat(arr2)
   }
+
+  function moveZeros(arr) {
+    let zero = arr.filter(e => e === 0)
+    return arr.filter(e => e !== 0).concat(zero)
+  }
