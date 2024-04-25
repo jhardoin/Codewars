@@ -6,3 +6,17 @@ function caffeineBuzz(n){
     if(arr.length == 0) arr.push('mocha_missing!')
     return arr.join('')
   }
+
+  function caffeineBuzz(n){
+    let result = '';
+    if (n % 3 === 0) {
+      result += 'Java';
+      if (n % 4 === 0) result += 'Script';
+    } else if (n % 12 === 0) {
+      result = 'Coffee';
+      if (n % 2 === 0) result += 'Script';
+    } else {
+      result = 'mocha_missing!';
+    }
+    return result;
+  }
