@@ -11,3 +11,7 @@ function findOdd(A) {
   function findOdd(A) {
     return A.find((e) => A.filter((n) => e === n).length % 2 !== 0)
   }
+
+  function findOdd(A) {
+    return A.find(e => A.filter(el => e == el).length % 2)
+  }
