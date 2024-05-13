@@ -20,3 +20,13 @@ function order(words) {
     
     return result.join(' ');
   }
+
+  function order(words){
+    let result = []
+    let arr = words.split(' ')
+    
+    for(let i = 1; i <= arr.length; i++){
+      result.push(arr.find(e => e.includes(i)))
+    }
+    return result.join(' ')
+  } 
