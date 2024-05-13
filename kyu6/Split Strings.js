@@ -24,3 +24,13 @@ function solution(str){
   }
  return arr
 }
+
+function solution(str){
+  let a = str.length % 2 !== 0 ? str + '_' : str
+  let result = []
+  
+  for(let i = 0; i < a.length; i += 2){
+    result.push(a[i] + a[i+1])
+  }
+ return result
+}
