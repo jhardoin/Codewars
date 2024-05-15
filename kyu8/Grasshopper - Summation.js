@@ -12,3 +12,7 @@ var summation = num => Array.from({length: num}, (e, i) => i + 1).reduce((a,b) =
 var summation = function (num) {
   return Array.from({length:num},(e,i) => i + 1).reduce((a,b) => a+b,0)
 }
+
+var summation = function (num) {
+  return Array.from({length:num}, (_, i) => i + 1).reduce((a,b) => a + b, 0)
+}
