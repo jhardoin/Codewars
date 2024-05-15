@@ -11,3 +11,7 @@ const stringToNumber = function(str){
   const stringToNumber = function(str){
     return +str
   }
+
+  const stringToNumber = function(str){
+    return +str
+  }
