@@ -11,3 +11,7 @@ function past(h, m, s){
   function past(h, m, s){
     return h * 3600000 + m * 60000 + s * 1000
   }
+
+  function past(h, m, s){
+    return 1000 * (h * 3600 + m * 60 + s)
+}
