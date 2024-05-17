@@ -13,3 +13,7 @@ function digitize(n) {
     function digitize(n) {
         return [...String(n)].reverse().map(e => +e)
       }
+
+      function digitize(n) {
+        return String(n).split('').reverse().map(e => +e)
+    }
