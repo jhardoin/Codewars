@@ -11,3 +11,11 @@ function makeUpperCase(str) {
   function makeUpperCase(str) {
     return str.toUpperCase()
   }
+
+  function makeUpperCase(str) {
+    let s = []
+    for(let i = 0; i < str.length; i++){
+      s.push(str[i].toUpperCase())
+    }
+    return s.join('')
+  }
