@@ -17,3 +17,7 @@ function hero(bullets, dragons){
     return dragons ? bullets/dragons >= 2 : true
   }
   
+
+  function hero(bullets, dragons){
+    return bullets/dragons >= 2
+}
