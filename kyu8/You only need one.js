@@ -11,3 +11,7 @@ function check(a, x) {
   function check(a, x) {
     return a.includes(x)
   }
+
+  function check(a, x) {
+    return a.some(e => e == x)
+  }
