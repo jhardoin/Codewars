@@ -20,3 +20,7 @@ function countBy(x, n) {
   function countBy(x, n) {
     return Array.from({length:n}, (e,i) => (i + 1) * x)
   }
+
+  function countBy(x, n) {
+    return Array.from({length:n}, (_,i) => x * (i + 1))
+  }
