@@ -15,3 +15,7 @@ const reverseSeq = n => {
   const reverseSeq = n => {
     return Array.from({length:n}, (e,i) => i + 1).reverse()
   }
+
+  const reverseSeq = n => {
+    return Array.from({length:n}, (_,i) => n--)
+  }
