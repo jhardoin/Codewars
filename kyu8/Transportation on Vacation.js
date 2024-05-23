@@ -19,3 +19,7 @@ function rentalCarCost(d) {
   function rentalCarCost(d) {
     return d >= 7 ? d * 40 - 50 : d >= 3 ? d * 40 - 20 : d * 40
   }
+
+  function rentalCarCost(d) {
+    return d > 6 ? d * 40 - 50 : d > 2 ? d * 40 - 20 : d * 40
+}
