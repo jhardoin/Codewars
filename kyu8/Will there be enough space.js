@@ -11,3 +11,8 @@ function enough(cap, on, wait) {
   function enough(cap, on, wait) {
     return cap - on - wait < 0 ? Math.abs(cap - on - wait) : 0
   }
+
+  function enough(cap, on, wait) {
+    let a = cap - on - wait
+    return a >= 0 ? 0 : Math.abs(a)
+}
