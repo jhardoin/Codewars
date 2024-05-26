@@ -11,3 +11,7 @@ function square(n){return n ** 2}
 function square(num){
     return num ** 2
   }
+
+  function square(x) {
+    return Math.pow(x, 2)
+  }
