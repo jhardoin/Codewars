@@ -19,3 +19,7 @@ function strCount(str, letter){
   function strCount(str, letter){  
     return [...str].filter(e => e == letter).length
   }
+
+  function strCount(str, letter){  
+    return str.split(letter).length - 1
+  }
