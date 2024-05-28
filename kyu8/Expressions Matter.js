@@ -7,3 +7,7 @@ const expressionMatter = (a, b, c) => {
   }
 
   const expressionMatter = (a, b, c) => Math.max(a * (b + c), a * b * c, a + b + c, (a + b) * c)
+
+  function expressionMatter(a, b, c) {
+    return Math.max(a+b+c, (a+b)*c, a*(b+c), a*b*c)
+  }
