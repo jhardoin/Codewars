@@ -16,3 +16,7 @@ function oddCount(n){
 function oddCount(n){
   return Math.floor(n/2)
 }
+
+function oddCount(n){
+  return n % 2 == 0 ? n/2 : Math.floor(n/2)
+}
