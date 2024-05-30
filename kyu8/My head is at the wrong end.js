@@ -11,3 +11,7 @@ function fixTheMeerkat(arr) {
   function fixTheMeerkat([tail, body, head]) {
     return [head,body,tail]
   }
+
+  function fixTheMeerkat(arr) {
+    return arr.reverse()
+  }
