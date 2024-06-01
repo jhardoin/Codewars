@@ -7,3 +7,7 @@ function divisibleBy(numbers, divisor){
   function divisibleBy(numbers, divisor){
     return numbers.filter(e => e % divisor == 0)
   }
+
+  function divisibleBy(numbers, divisor){
+    return numbers.filter(e => e % divisor == 0)
+  }
