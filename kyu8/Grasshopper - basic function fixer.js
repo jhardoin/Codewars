@@ -11,3 +11,8 @@ function addFive(num) {
   function addFive(num) {
     return num + 5
   }
+
+  function addFive(num) {
+    var total = num + 5
+    return total
+  }
