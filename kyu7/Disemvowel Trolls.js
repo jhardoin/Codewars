@@ -13,3 +13,7 @@ function disemvowel(str) {
   function disemvowel(str) {
     return str.split('').filter(e => !'aeiouAEIOU'.includes(e)).join('')
   }
+
+  function disemvowel(str) {
+    return str.split('').filter(e => !'aeiouAEIOU'.includes(e)).join('')
+  }
