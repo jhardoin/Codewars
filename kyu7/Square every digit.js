@@ -17,3 +17,7 @@ function squareDigits(num){
   function squareDigits(num){
     return +[...num.toString()].map(e => e ** 2).join('')
   }
+
+  function squareDigits(num){
+    return +num.toString().split('').map(e => e ** 2).join('')
+  }
