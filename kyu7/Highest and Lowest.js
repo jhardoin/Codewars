@@ -28,3 +28,9 @@ function highAndLow(numbers){
   function highAndLow(numbers){
     return `${Math.max(...numbers.split(' '))} ${Math.min(...numbers.split(' '))}`
   }
+
+  function highAndLow(numbers){
+    let arr = numbers.split(' ')
+    let sorted = arr.sort((a,b) => a - b)
+    return `${sorted[sorted.length - 1]} ${sorted[0]}`
+  }
