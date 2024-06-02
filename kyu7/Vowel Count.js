@@ -41,3 +41,9 @@ function getCount(str) {
       str.split('').map(e => 'aeiou'.includes(e) ? count++ : 1)
       return count
     }
+
+    function getCount(str) {
+      let count = 0
+      str.split('').forEach(e => 'aeiou'.includes(e) ? count++ : e)
+      return count
+    }
