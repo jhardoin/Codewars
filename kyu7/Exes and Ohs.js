@@ -18,3 +18,7 @@ function XO(str) {
     str.toLowerCase().split('').map(e => e == 'x' ? x++ : e == 'o' ? o++ : 0)
     return x == o
   }
+
+  function XO(str) {
+    return str.toLowerCase().split('o').length == str.toLowerCase().split('x').length
+}
