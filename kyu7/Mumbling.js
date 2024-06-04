@@ -19,3 +19,7 @@ function accum(s) {
 function accum(s) {
 	return [...s].map((e,i) => e[0].toUpperCase() + e.repeat(i).toLowerCase()).join('-')
 }
+
+function accum(s) {
+	return s.split('').map((e,i) => e.toUpperCase() + e.toLowerCase().repeat(i)).join('-')
+}
