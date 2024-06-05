@@ -22,3 +22,9 @@ function getSum(a, b){
     return a == b ? a : Array.from({length:Math.max(a,b) - Math.min(a,b) + 1}, (e,i) => i + Math.min(a,b)).
     reduce((a,b) => a + b, 0)
  }
+
+ function getSum(a, b){
+  let min = Math.min(a, b)
+  let max = Math.max(a, b)
+  return Array.from({length: Math.abs(max - min + 1)}, (_, i) => min + i).reduce((a,b) => a + b, 0)
+}  
