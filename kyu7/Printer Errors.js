@@ -8,3 +8,8 @@ function printerError(s) {
   function printerError(s) {
     return `${(s.length - [...s].filter(e => 'abcdefghijklm'.includes(e)).length)}/${s.length}`
 }
+
+function printerError(s) {
+  let errors = s.length - [...s].filter(e => 'abcdefghijklm'.includes(e)).length
+  return `${errors}/${s.length}`
+}
