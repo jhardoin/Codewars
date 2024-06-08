@@ -18,3 +18,11 @@ function divisors(integer) {
     let arr = Array.from({length: int-1}, (e, i)=> i+1).slice(1).filter(e => int % e === 0)
     return arr.length ? arr : `${int} is prime`;
   }
+
+  function divisors(integer) {
+    let arr = []
+    for(let i = 0; i < integer; i++){
+      if(integer % i == 0 && i !== 1) arr.push(i)
+    }
+  return arr.length > 0 ? arr : `${integer} is prime`
+}
