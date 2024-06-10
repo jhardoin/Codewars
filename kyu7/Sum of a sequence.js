@@ -27,3 +27,12 @@ const sequenceSum = (begin, end, step) => {
     let n = Math.floor((end - begin) / step + 1);
     return n <= 0 ? 0 : n * (begin + (begin + (n - 1) * step)) / 2;
   }
+
+  const sequenceSum = (begin, end, step) => {
+    if(end <= begin) return 0
+    let arr = []
+    for(let i = begin; i <= end; i += step){
+      arr.push(i)
+    }
+    return arr.reduce((a,b) => a + b, 0)
+}
