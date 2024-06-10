@@ -9,3 +9,7 @@ function stray(numbers) {
   function stray(numbers) {
     return numbers.find((e,i) => numbers.indexOf(e) == numbers.lastIndexOf(e))
   }
+
+  function stray(numbers) {
+    return +numbers.filter((e,i,a) => a.indexOf(e) == a.lastIndexOf(e)).join('')
+  }
