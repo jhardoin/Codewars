@@ -9,3 +9,12 @@ function removeUrlAnchor(url){
     }
     return arr2.join('')
   }
+
+  function removeUrlAnchor(url){
+    let arr = []
+    for(let i = 0; i < url.length; i++){
+      if(url[i] == '#') return arr.join('')
+      arr.push(url[i])
+    }
+    return arr.join('')
+  }
