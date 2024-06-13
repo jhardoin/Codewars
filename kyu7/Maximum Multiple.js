@@ -13,3 +13,7 @@ function maxMultiple(divisor, bound){
   function maxMultiple(divisor, bound){
     return bound - bound % divisor
   }
+
+  function maxMultiple(divisor, bound){
+    return bound % divisor == 0 ? bound : Math.floor(bound/divisor) * divisor
+}
