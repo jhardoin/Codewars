@@ -17,3 +17,7 @@ function reverseLetter(str) {
   function reverseLetter(str) {
     return [...str].filter(e => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.includes(e)).reverse().join('')
   }
+
+  function reverseLetter(str) {
+    return [...str].filter(e => 'abcdefghijklmnopqrstuvwxyz'.includes(e)).reverse().join('')
+}
