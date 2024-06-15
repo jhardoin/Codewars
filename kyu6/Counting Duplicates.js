@@ -26,3 +26,7 @@ function duplicateCount(text){
     let a = [...new Set([...text.toLowerCase()])]
     return a.map(e => [e, [...text.toLowerCase()].filter(el => e == el).length]).filter(e => e[1] > 1).length
   }
+
+  function duplicateCount(text){
+    return [...new Set([...text.toLowerCase()].filter((e,i,a) => a.indexOf(e) !== a.lastIndexOf(e)))].length
+}
