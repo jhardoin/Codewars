@@ -25,3 +25,7 @@ function findOutlier(integers){
   let odd = integers.filter(e => e % 2 !== 0)
   return even.length == 1 ? +even.join('') : +odd.join('')
 }
+
+function findOutlier(integers){
+  return integers.filter(e => e % 2 == 0).length == 1 ? +integers.filter(e => e % 2 == 0) : +integers.filter(e => e % 2 !== 0).join('')
+}
