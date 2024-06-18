@@ -33,3 +33,7 @@ function isValidWalk(walk) {
       
       return walk.length === 10 && north === south && east === west;
     }
+
+    function isValidWalk(walk) {
+      return walk.length == 10 && walk.map(e => e == 'n' ? 1 : e == 's' ? -1 : e == 'w' ? 2 : -2).reduce((a,b) => a + b, 0) == 0
+  }
