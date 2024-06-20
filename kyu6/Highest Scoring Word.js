@@ -9,3 +9,8 @@ function high(x){
     let as = s.split(' ').map(s=>[...s].reduce((a,b)=>a+b.charCodeAt(0)-96,0))
     return s.split(' ')[as.indexOf(Math.max(...as))];
   }
+
+  function high(s){
+    let a = s.split(' ').map(s=>[...s].reduce((a,b)=>a+b.charCodeAt(0)-96,0))
+    return s.split(' ')[a.indexOf(Math.max(...a))];
+  }
