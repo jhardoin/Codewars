@@ -34,3 +34,12 @@ function solution(str){
   }
  return result
 }
+
+function solution(str){
+  let s = str.length % 2 == 0 ? str : str + '_'
+  let arr = []
+  for(let i = 0; i < s.length; i += 2){
+    arr.push(s[i] + s[i + 1])
+  }
+  return arr
+}
