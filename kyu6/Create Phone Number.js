@@ -17,3 +17,8 @@ function createPhoneNumber(numbers){
   let a = numbers.join('')
   return `(${a.substr(0, 3)}) ${a.substr(3,3)}-${a.substr(6,4)}`
 }
+
+function createPhoneNumber(numbers){
+  let n = numbers
+  return `(${n[0]}${n[1]}${n[2]}) ${n[3]}${n[4]}${n[5]}-${n[6]}${n[7]}${n[8]}${n[9]}`
+}
