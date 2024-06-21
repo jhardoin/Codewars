@@ -51,3 +51,11 @@ function digitalRoot(n) {
     }
     return n
 }
+
+
+function digitalRoot(n) {
+  while(n > 9){
+    n = n.toString().split('').reduce((a,b) => +b + a, 0)
+  }
+  return n
+}
