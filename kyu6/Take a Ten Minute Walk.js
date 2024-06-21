@@ -37,3 +37,9 @@ function isValidWalk(walk) {
     function isValidWalk(walk) {
       return walk.length == 10 && walk.map(e => e == 'n' ? 1 : e == 's' ? -1 : e == 'w' ? 2 : -2).reduce((a,b) => a + b, 0) == 0
   }
+
+  function isValidWalk(walk) {
+    let a = walk.map(e => e == 'n' ? 1 : e == 's' ? -1 : e == 'w' ? 2 : -2)
+    let b = a.reduce((a,b) => a + b , 0)
+    return walk.length == 10 && b == 0
+  }
