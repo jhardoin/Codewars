@@ -11,3 +11,10 @@ function alphabetPosition(text) {
   function alphabetPosition(text) {
     return text.toLowerCase().split('').map(e => e.charCodeAt(0) - 96).filter(e => e > 0 && e < 27).join(' ')
   }
+
+  function alphabetPosition(text) {
+    return text.toLowerCase()
+               .split('').map(e => e.charCodeAt(0) - 96)
+               .filter(e => e > 0 && e < 27)
+               .join(' ')
+  }
