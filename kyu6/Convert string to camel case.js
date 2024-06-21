@@ -15,4 +15,15 @@ function toCamelCase(str){
     return str.split(/[-_]/).map((e,i) => i == 0 ? e : e[0].toUpperCase() + e.slice(1)).join('')
   }
   
-  
+  function toCamelCase(str) {
+    let camelCaseStr = ''
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] === '_' || str[i] === '-') {
+        camelCaseStr += str[i + 1].toUpperCase()
+        i++
+      } else {
+        camelCaseStr += str[i]
+      }
+    }
+    return camelCaseStr
+  }
