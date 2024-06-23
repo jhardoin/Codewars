@@ -12,3 +12,12 @@ function solution(string) {
     }
     return arr.join('')
   }
+
+  function solution(string) {
+    let arr = []
+    for(let i = 0; i < string.length; i++){
+      if(string[i] == string[i].toUpperCase()) arr.push(' ')
+      arr.push(string[i])
+    }
+    return arr.join('')
+  }
