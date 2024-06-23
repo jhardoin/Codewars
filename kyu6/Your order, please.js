@@ -41,3 +41,14 @@ function order(words) {
     
     return arr.join(' ')
   }
+
+  function order(words) {
+    const arr = [];
+    const s = words.split(' ');
+    
+    for (let i = 1; i <= s.length; i++) {
+      arr.push(s.find((e) => e.includes(i)));
+    }
+    
+    return arr.join(' ')
+  }
