@@ -12,3 +12,9 @@ function count(string) {
     string.split('').map(e => obj[e] ? obj[e]++ : obj[e] = 1)
     return obj
   }
+
+  function count(string) {
+    let obj = {}
+    string.split('').map(e => obj[e] = obj[e] + 1 || 1)
+    return obj
+  }
