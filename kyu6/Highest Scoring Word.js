@@ -14,3 +14,8 @@ function high(x){
     let a = s.split(' ').map(s=>[...s].reduce((a,b)=>a+b.charCodeAt(0)-96,0))
     return s.split(' ')[a.indexOf(Math.max(...a))];
   }
+
+  function high(x){
+    let y = x.split(' ').map(e => [...e].reduce((a,b) => a + b.charCodeAt(0) - 96, 0))
+    return x.split(' ')[y.indexOf(Math.max(...y))]
+}
