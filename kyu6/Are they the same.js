@@ -11,3 +11,7 @@ function comp(array1, array2){
     let sorted = array1.sort((a,b) => a - b)
     return  JSON.stringify(unSqrd) == JSON.stringify(sorted)
 }
+
+function comp(array1, array2){
+  return array1 && array2 ? array1.sort().toString() == array2.map(e => Math.sqrt(e)).sort().toString() : false
+}
