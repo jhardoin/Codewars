@@ -30,3 +30,8 @@ function duplicateCount(text){
   function duplicateCount(text){
     return [...new Set([...text.toLowerCase()].filter((e,i,a) => a.indexOf(e) !== a.lastIndexOf(e)))].length
 }
+
+function duplicateCount(text){
+  let x = text.toLowerCase().split('').filter((e,i,a) => a.indexOf(e) !== a.lastIndexOf(e))
+  return [...new Set(x)].length
+}
