@@ -31,3 +31,7 @@ function isPangram(string){
     let b = [...new Set(a)].filter(e => 'abcdefghijklmnopqrstuvwxyz'.includes(e))
     return b.length == 26
 }
+
+function isPangram(string){
+  return [...new Set(string.toLowerCase().split('').filter(e => 'abcdefghijklmnopqrstuvwxyz'.includes(e)))].length == 26
+}
