@@ -37,3 +37,9 @@ function duplicateEncode(word){
 function duplicateEncode(word){
     return word.toLowerCase().split('').map((e,i,a) => a.indexOf(e) == a.lastIndexOf(e) ? '(' : ')').join('')
 }
+
+
+function duplicateEncode(word){
+    let x = word.toLowerCase().split('')
+    return x.map((e,i,a) => a.indexOf(e) == a.lastIndexOf(e) ? '(' : ')').join('')
+}
