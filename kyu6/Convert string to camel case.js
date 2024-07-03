@@ -41,3 +41,16 @@ function toCamelCase(str){
     }
     return s
 }
+
+function toCamelCase(str){
+  let arr = []
+  for(let i = 0; i < str.length; i++){
+    if(str[i] == '-' || str[i] == '_'){
+      arr.push(str[i + 1].toUpperCase())
+      i++
+    } else {
+      arr.push(str[i])
+    }
+  }
+  return arr.join('')
+}
