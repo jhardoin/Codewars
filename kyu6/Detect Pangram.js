@@ -35,3 +35,7 @@ function isPangram(string){
 function isPangram(string){
   return [...new Set(string.toLowerCase().split('').filter(e => 'abcdefghijklmnopqrstuvwxyz'.includes(e)))].length == 26
 }
+
+function isPangram(string){
+  return [...new Set(string.toLowerCase().split('').filter(e => 'abcdefghijklmnopqrstuvwxyz'.includes(e)))].length == 26
+}
