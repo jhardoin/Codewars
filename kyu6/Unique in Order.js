@@ -47,3 +47,11 @@ var uniqueInOrder=function(iterable){
   }
   return arr
 }
+
+var uniqueInOrder=function(x){
+  let arr = []
+  for(let i = 0; i < x.length; i++){
+    if(x[i] !== x[i - 1]) arr.push(x[i])
+  }
+  return arr
+}
