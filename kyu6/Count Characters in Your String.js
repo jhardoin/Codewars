@@ -24,3 +24,9 @@ function count(string) {
     string.split('').map(e => obj[e] = obj[e] + 1 || 1)
     return obj
   }
+
+  function count(string) {
+    let o = {}
+    string.split('').map(e => o[e] = o[e] + 1 || 1)
+    return o
+}
