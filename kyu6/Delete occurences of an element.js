@@ -7,3 +7,8 @@ const deleteNth = (a, x) => {
     let m = {}
     return a.filter(e => (m[e] = m[e] + 1 || 1) <= x )
   }
+
+  function deleteNth(arr,n){
+    let obj = {}
+    return arr.filter(e => (obj[e] = obj[e] + 1 || 1) <= n)
+}
