@@ -30,3 +30,9 @@ function count(string) {
     string.split('').map(e => o[e] = o[e] + 1 || 1)
     return o
 }
+
+function count(string) {
+  let obj = {}
+  string.split('').forEach(e => obj[e] = obj[e] + 1 || 1)
+  return obj
+}
