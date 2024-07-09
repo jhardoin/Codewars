@@ -10,3 +10,12 @@ function findNb(m) {
     return totalVolume === m ? n : -1
   }
   
+  function findNb(m) {
+    let total = 0
+    let i = 0
+    while(total < m ){
+      i += 1
+      total = total + Math.pow(i, 3)
+    }
+    return total == m ? i : -1
+}
