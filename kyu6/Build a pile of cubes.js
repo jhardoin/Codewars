@@ -19,3 +19,14 @@ function findNb(m) {
     }
     return total == m ? i : -1
 }
+
+
+function findNb(m) {
+    let total = 0
+    let n = 0
+    while(total < m){
+      n++
+      total = total + Math.pow(n, 3)
+    }
+    return total == m ? n : -1
+}
