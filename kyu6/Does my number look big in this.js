@@ -20,3 +20,9 @@ function narcissistic(value) {
   function narcissistic(value) {
     return value == value.toString().split('').reduce((a,b) => a + (b ** value.toString().length), 0)
 }
+
+
+function narcissistic(value) {
+  let x = value.toString().split('')
+  return x.reduce((a,b) => a + (b ** value.toString().length), 0) == value
+}
