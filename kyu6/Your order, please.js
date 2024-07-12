@@ -61,3 +61,13 @@ function order(words) {
     }
     return arr.join(' ')
 }
+
+function order(words){
+  let s = words.split(' ')
+  let arr = []
+  for(let i = 1; i <= s.length; i++){
+    arr.push(s.find(e => e.includes(i)))
+  }
+  return arr.join(' ')
+
+}
