@@ -40,3 +40,13 @@ function longestConsec(strarr, k) {
   }
   return longest
 }
+
+function longestConsec(strarr, k) {
+  if(k <= 0) return ''
+  let longest = ''
+  for(let i = 0; i <= strarr.length - k; i++){
+    let tempString = strarr.slice(i, i + k).join('')
+    if(longest.length < tempString.length) longest = tempString
+  }
+  return longest
+}
