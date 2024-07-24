@@ -42,3 +42,9 @@ function wave(str){
   }
   return arr
 }
+
+function wave(str){
+  let arr = []
+  str.split('').forEach((_, i) => _ == ' ' ? ' ' : arr.push(str.slice(0,i) + str[i].toUpperCase() + str.slice(i + 1)))
+  return arr
+}
