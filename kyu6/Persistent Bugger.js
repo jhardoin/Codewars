@@ -88,3 +88,12 @@ function persistence(num) {
   }
   return count
 }
+
+function persistence(num) {
+  let count = 0
+  while(num > 9){
+    num = num.toString().split('').reduce((a,b) => +b * a, 1)
+    count++
+  }
+  return count
+}
