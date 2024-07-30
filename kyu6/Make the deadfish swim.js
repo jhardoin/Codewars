@@ -5,3 +5,9 @@ function parse( data ){
     return arr
   }
   
+  function parse( data ){
+    let n = 0
+    let arr = []
+    data.split('').forEach(e => e == 'i' ? n++ : e == 'd' ? n-- : e == 's' ? n *= n : e == 'o' ? arr.push(n) : e)
+    return arr
+}
