@@ -15,3 +15,7 @@ function toWeirdCase(string) {
   function toWeirdCase(string){
     return string.split(' ').map(word => [...word].map((e,i) => i % 2 == 0 ? e.toUpperCase() : e.toLowerCase()).join('')).join(' ')
 }
+
+function toWeirdCase(string){
+  return string.split(' ').map(word => [...word].map((e,i) => i % 2 == 0 ? e.toUpperCase() : e.toLowerCase()).join('')).join(' ')
+}
