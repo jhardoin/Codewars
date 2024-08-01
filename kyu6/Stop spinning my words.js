@@ -37,3 +37,7 @@ function spinWords(string){
 function spinWords(string){
   return string.split(' ').map(e => e.length > 4 ? [...e].reverse().join('') : e).join(' ')
 }
+
+function spinWords(string){
+  return string.split(' ').map(e => e.length > 4 ? [...e].reverse().join('') : e).join(' ')
+}
