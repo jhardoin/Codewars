@@ -78,3 +78,14 @@ function toCamelCase(str){
   }
   return s
 }
+
+function toCamelCase(str){
+  let s = ''
+  for(let i = 0; i < str.length; i++){
+    if(str[i] == '_' || str[i] == '-'){
+      s += str[i + 1].toUpperCase()
+      i++
+    }else s += str[i]
+  }
+  return s
+}
