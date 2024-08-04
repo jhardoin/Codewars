@@ -26,3 +26,9 @@ function narcissistic(value) {
   let x = value.toString().split('')
   return x.reduce((a,b) => a + (b ** value.toString().length), 0) == value
 }
+
+function narcissistic(value) {
+  let x = value.toString().split('')
+  return value == x.reduce((a,b) => a + b ** x.length, 0)
+}
+ 
