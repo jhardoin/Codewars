@@ -36,3 +36,10 @@ function tribonacci(signature,n){
   }
   return signature.slice(0,n)
 }
+
+function tribonacci(x,n){
+  for(let i = 3; i < n; i++){
+    x.push(x[i - 3] + x[i - 2] + x[i - 1])
+  }
+  return x.slice(0,n)
+}
