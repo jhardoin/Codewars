@@ -23,3 +23,7 @@ function comp(array1, array2){
 function comp(array1, array2){
   return array1 && array2 ? array2.map(e => Math.sqrt(e)).sort().join('') == array1.sort().join('') : false
 }
+
+function comp(array1, array2){
+  return array1 && array2 ? array1.sort().toString() == array2.map(e => Math.sqrt(e)).sort().toString() : false
+}
