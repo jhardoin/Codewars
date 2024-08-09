@@ -59,3 +59,11 @@ function sumDigPow(a, b) {
   }
   return arr
 }
+
+function sumDigPow(a, b) {
+  let arr = []
+  for(let i = a; i <= b; i++){
+    if(i == i.toString().split('').reduce((ax, bx, ix) => ax + bx ** (ix + 1), 0)) arr.push(i)
+  }
+  return arr
+}
