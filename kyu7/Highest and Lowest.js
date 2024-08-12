@@ -34,3 +34,7 @@ function highAndLow(numbers){
     let sorted = arr.sort((a,b) => a - b)
     return `${sorted[sorted.length - 1]} ${sorted[0]}`
   }
+
+  function highAndLow(numbers){
+    return `${Math.max(...numbers.split(' '))} ${Math.min(...numbers.split(' '))}`
+  }
