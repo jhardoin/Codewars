@@ -23,3 +23,8 @@ function sumTwoSmallestNumbers(numbers) {
     nums.length = 2
     return nums.reduce((a,b) => a + b, 0)
   }
+
+  function sumTwoSmallestNumbers(numbers) {  
+    let a = numbers.sort((a,b) => a - b)
+    return a[0] + a[1]
+}
