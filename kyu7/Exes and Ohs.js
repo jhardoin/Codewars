@@ -22,3 +22,9 @@ function XO(str) {
   function XO(str) {
     return str.toLowerCase().split('o').length == str.toLowerCase().split('x').length
 }
+
+function XO(str) {
+    let x = [...str.toLowerCase()].filter(e => e == 'x').length
+    let o = [...str.toLowerCase()].filter(e => e == 'o').length
+    return x == o
+}
