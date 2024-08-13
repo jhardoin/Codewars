@@ -17,3 +17,7 @@ function findShort(s){
     let arr = s.split(' ')
     return arr.sort((a,b) => a.length - b.length)[0].length
   }
+
+  function findShort(s){
+    return s.split(' ').reduce((a,b) => b.length < a ? b.length : a, s.length)
+}
