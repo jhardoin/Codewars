@@ -28,3 +28,12 @@ function getSum(a, b){
   let max = Math.max(a, b)
   return Array.from({length: Math.abs(max - min + 1)}, (_, i) => min + i).reduce((a,b) => a + b, 0)
 }  
+
+function getSum(a, b){
+  if(a == b) return a
+  let arr = []
+  for(let i = Math.min(a,b); i <= Math.max(a,b); i++){
+    arr.push(i)
+  }
+  return arr.reduce((a,b) => a + b, 0)
+}
