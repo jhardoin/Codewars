@@ -43,3 +43,13 @@ function calculateYears(principal, interest, tax, desired) {
   }
   return years
 }
+
+function calculateYears(principal, interest, tax, desired) {
+  let count = 0
+  while(principal < desired){
+    let x = principal * interest
+    principal = principal + (x - (x * tax))
+    count++
+  }
+  return count
+}
