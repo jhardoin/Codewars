@@ -13,3 +13,14 @@ function SeriesSum(n){
     }
     return sum.toFixed(2)
   }
+
+  function SeriesSum(n) {
+    let i = 0
+    let result = 0
+    while(i < n){
+      if(i === 0) result += 1
+      else result += 1/(4 + ((i - 1) * 3))
+      i++
+    }
+    return result.toFixed(2)
+}
