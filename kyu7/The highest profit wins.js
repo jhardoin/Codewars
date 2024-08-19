@@ -13,3 +13,8 @@ function minMax(arr){
   function minMax(arr){
     return [Math.min(...arr), Math.max(...arr)]
   }
+
+  function minMax(arr){
+    if(arr.length == 1) return [arr[0], arr[0]]
+    return [Math.min(...arr), Math.max(...arr)]
+}
