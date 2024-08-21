@@ -19,3 +19,8 @@ var isAnagram = function(test, original) {
     let b = original.toLowerCase().split('').sort().join('')
     return a === b
 };
+
+
+var isAnagram = function(test, original) {
+    return test.toLowerCase().split('').sort().join('') === original.toLowerCase().split('').sort().join('')
+};
