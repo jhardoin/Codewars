@@ -36,3 +36,11 @@ const sequenceSum = (begin, end, step) => {
     }
     return arr.reduce((a,b) => a + b, 0)
 }
+
+const sequenceSum = (begin, end, step) => {
+  let arr = []
+  for(let i = begin; i <= end; i += step){
+    arr.push(i)
+  }
+  return arr.reduce((a,b) => a + b, 0)
+};
