@@ -21,3 +21,8 @@ function dontGiveMeFive(start, end) {
   function dontGiveMeFive(start, end){
     return Array.from({length:end - start + 1}, (e,i) => i + start).filter(e => !e.toString().includes('5')).length
 }
+
+
+function dontGiveMeFive(start, end){
+  return Array.from({length:end - start + 1}, (_,i) => i + start).filter(e => !`${e}`.includes('5')).length
+}
