@@ -22,3 +22,9 @@ function twoOldestAges(ages){
     return [a[1], a[0]]
   }
   
+
+  function twoOldestAges(ages){
+    let s = ages.sort((a,b) => b - a)
+    s.length = 2
+    return s.reverse()
+}
