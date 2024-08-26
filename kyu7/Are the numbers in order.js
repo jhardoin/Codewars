@@ -11,3 +11,7 @@ function inAscOrder(arr) {
   function inAscOrder(arr) {
     return JSON.stringify(arr) == JSON.stringify(arr.sort((a,b) => a - b))
   }
+
+  function inAscOrder(arr) {
+    return arr.toString() === arr.sort((a,b) => a - b).toString()
+}
