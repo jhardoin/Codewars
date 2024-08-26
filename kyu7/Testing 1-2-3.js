@@ -17,3 +17,7 @@ var number=function(array){
   var number=function(array){
     return array.map((e,i) =>`${i + 1}: ${e}`)
 }
+
+var number=function(array){
+  return array.map((e,i) => `${i + 1}: ${e}`)
+}
