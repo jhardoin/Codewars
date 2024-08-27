@@ -17,3 +17,8 @@ function oddOrEven(array) {
 function oddOrEven(array) {
    return array.reduce((a,b) => a + b, 0) % 2 == 0 ? 'even' : 'odd'
 }
+
+function oddOrEven(array) {
+   let x = array.reduce((a,b) => a + b, 0)
+   return x % 2 === 0 ? 'even' : 'odd'
+}
