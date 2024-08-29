@@ -89,3 +89,12 @@ function order(words){
   }
   return arr.join(' ')
 }
+
+function order(words){
+  let arr = []
+  let w = words.split(' ')
+  for(let i = 1; i <= w.length; i++){
+    arr.push(w.find(e => e.includes(i)))
+  }
+  return arr.join(' ')
+}
