@@ -32,3 +32,7 @@ function narcissistic(value) {
   return value == x.reduce((a,b) => a + b ** x.length, 0)
 }
  
+
+function narcissistic(value) {
+  return value === value.toString().split('').reduce((a,b) => a + (b ** value.toString().length), 0)
+}
