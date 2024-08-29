@@ -43,3 +43,11 @@ function tribonacci(x,n){
   }
   return x.slice(0,n)
 }
+
+function tribonacci(signature,n){
+  let s = signature
+  for(let i = 3; i < n; i++){
+    s.push(s[i - 3] + s[i - 2] + s[i - 1])
+  }
+  return s.slice(0, n)
+}
