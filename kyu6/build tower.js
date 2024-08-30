@@ -23,3 +23,7 @@ function towerBuilder(n) {
 function towerBuilder(nFloors) {
     return [...Array(nFloors)].map((e,i) => ' '.repeat(nFloors - i - 1) + '*'.repeat(i * 2 + 1) + ' '.repeat(nFloors - i - 1))
 }
+
+function towerBuilder(nFloors) {
+    return [...Array(nFloors)].map((e,i,a) => ' '.repeat(a.length - 1 - i) + '*'.repeat(i * 2 + 1) + ' '.repeat(a.length - 1 - i))
+}
