@@ -27,3 +27,9 @@ function comp(array1, array2){
 function comp(array1, array2){
   return array1 && array2 ? array1.sort().toString() == array2.map(e => Math.sqrt(e)).sort().toString() : false
 } 
+
+function comp(array1, array2){
+  if(!array1 || !array2) return false
+  let a2 = array2.map(e => Math.sqrt(e))
+  return array1.sort().toString() === a2.sort().toString()
+}
