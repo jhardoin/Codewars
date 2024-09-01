@@ -115,3 +115,15 @@ function validBraces(braces){
     }
     return arr.length == 0
 }
+
+function validBraces(braces){
+    let bMap = { '(' : ')', '{' : '}', '[' : ']' }
+    let arr = []
+    for(let i = 0; i < braces.length; i++){
+      if(bMap[braces[i]]) arr.push(braces[i])
+      else{
+        if(bMap[arr.pop()] !== braces[i]) return false
+      }
+    }
+    return arr.length === 0
+}
