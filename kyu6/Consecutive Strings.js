@@ -90,3 +90,13 @@ function longestConsec(strarr, k) {
   }
   return longest
 }
+
+function longestConsec(strarr, k) {
+  if(k <= 0) return ''
+  let l = ''
+  for(let i = 0; i <= strarr.length - k; i++){
+    let curr = strarr.slice(i, i + k).join('')
+    if(curr.length > l.length) l = curr
+  }
+  return l
+}
