@@ -19,3 +19,7 @@ function filter_list(l) {
   function filter_list(l) {
     return l.filter(e => typeof e == 'number' && e >= 0)
 }
+
+function filter_list(l) {
+  return l.filter(e => typeof e === 'number')
+}
