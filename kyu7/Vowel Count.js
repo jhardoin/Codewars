@@ -51,3 +51,7 @@ function getCount(str) {
     function getCount(str) {
       return str.split('').filter(e => 'aeiou'.includes(e)).length
     }
+
+    function getCount(str) {
+      return str.split('').filter(e => 'aeiou'.includes(e)).length
+  }
