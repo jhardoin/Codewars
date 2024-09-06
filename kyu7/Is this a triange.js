@@ -21,3 +21,8 @@ function isTriangle(a,b,c){
 function isTriangle(a,b,c){
   return a + b > c && b + c > a && a + c > b
 }
+
+function isTriangle(a,b,c){
+  let x = [a,b,c].sort((a,b) => b - a)
+  return x[0] < x[1] + x[2]
+}
