@@ -22,3 +22,8 @@ function oddOrEven(array) {
    let x = array.reduce((a,b) => a + b, 0)
    return x % 2 === 0 ? 'even' : 'odd'
 }
+
+function oddOrEven(array) {
+   let sum = array.reduce((a,b) => a + b, 0)
+   return sum % 2 === 0 ? 'even' : 'odd'
+}
