@@ -24,3 +24,7 @@ function minMax(arr){
   let max = Math.max(...arr)
   return [min, max]
 }
+
+function minMax(arr){
+  return [Math.min(...arr), Math.max(...arr)]
+}
