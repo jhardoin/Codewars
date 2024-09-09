@@ -21,3 +21,7 @@ function stray(numbers) {
 function stray(numbers) {
   return numbers.find((e,i,a) => a.indexOf(e) === a.lastIndexOf(e))
 }
+
+function stray(numbers) {
+  return numbers.find((e,i,a) => a.indexOf(e) === a.lastIndexOf(e))
+}
