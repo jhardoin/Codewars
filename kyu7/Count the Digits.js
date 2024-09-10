@@ -16,3 +16,7 @@ function nbDig(n, d) {
   function nbDig(n, d) {
     return Array.from({length:n + 1}, (e,i) => i*i).join('').split(d).length - 1
   }
+
+  function nbDig(n, d) {
+    return Array.from({length: n + 1}, (_,i) => i ** 2).join('').split('').filter(e => e == d).length
+}
