@@ -31,3 +31,7 @@ var capitals = function (word) {
 var capitals = function (word) {
   return word.split('').map((e,i) => e === e.toUpperCase() ? i : '').filter(e => e !== '')
 };
+
+var capitals = function (word) {
+  return word.split('').reduce((a,b,i) => b === b.toUpperCase() ? a.concat(i) : a, [])
+};
