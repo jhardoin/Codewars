@@ -19,3 +19,7 @@ function angle(n) {
   }
   return degrees
 }
+
+function angle(n) {
+  return (n - 2) * 180
+}
