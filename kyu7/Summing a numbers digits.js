@@ -21,3 +21,8 @@ function sumDigits(number) {
 function sumDigits(number) {
   return Math.abs(number).toString().split('').reduce((a,b) => +b + a, 0)
 }
+
+
+function sumDigits(number) {
+  return Math.abs(number).toString().split('').reduce((a,b) => +b + a, 0)
+}
