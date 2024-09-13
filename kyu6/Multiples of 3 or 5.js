@@ -35,3 +35,7 @@ function solution(number){
               .filter(e => e % 5 == 0 || e % 3 == 0)
               .reduce((a,b) => a + b, 0)
 }
+
+function solution(number){
+  return Array.from({length:number - 1}, (_,i) => i + 1).filter(e => e % 3 === 0 || e % 5 === 0).reduce((a,b) => a + b, 0)
+}
