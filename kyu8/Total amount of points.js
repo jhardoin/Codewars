@@ -27,3 +27,9 @@ function points(games) {
   games.map(e => e[0] > e[2] ? count += 3 : e[0] == e[2] ? count++ : -1)
   return count
 }
+
+function points(games) {
+  let count = 0
+  games.forEach(e => e[0] > e[2] ? count += 3 : e[0] === e[2] ? count++ : e)
+  return count
+}
