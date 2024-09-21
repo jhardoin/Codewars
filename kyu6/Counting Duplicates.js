@@ -55,3 +55,8 @@ function duplicateCount(text){
   let x = text.toLowerCase().split('').filter((e,i,a) => a.indexOf(e) !== a.lastIndexOf(e))
   return [...new Set(x)].length
 }
+
+function duplicateCount(text){
+  let s = text.toLowerCase().split('').filter((e,i,a) => a.indexOf(e) !== a.lastIndexOf(e))
+  return [...new Set(s)].length
+}
