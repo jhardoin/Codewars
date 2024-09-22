@@ -31,3 +31,7 @@ function sortByLength (array) {
 function sortByLength (array) {
   return array.sort((a,b) => a.length - b.length)
 } 
+
+function sortByLength (array) {
+  return array.sort((a,b) => a.length - b.length)
+}
