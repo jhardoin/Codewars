@@ -10,3 +10,10 @@ function rowWeights(array){
     let two = array.filter((e,i) => i % 2 !== 0).reduce((a,b) => a + b, 0)
     return [one,two]
   }
+
+  function rowWeights(array){
+    let a = 0
+    let b = 0
+    array.forEach((e,i) => i % 2 === 0 ? a += e : b += e)
+    return [a,b]
+}
