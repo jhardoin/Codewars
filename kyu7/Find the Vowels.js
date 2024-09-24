@@ -7,3 +7,7 @@ function vowelIndices(word){
   function vowelIndices(word){
     return [...word].map((e,i) => 'aeiouyAEIOUY'.includes(e) ? i + 1 : -1).filter(e => e > 0)
   }
+
+  function vowelIndices(word){
+    return word.toLowerCase().split('').map((e,i) => 'aeiouy'.includes(e) ? i + 1 : '').filter(e => typeof e === 'number')
+}
