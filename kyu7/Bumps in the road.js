@@ -6,3 +6,7 @@ function bump(x){
     [...x].map(e => e == 'n' ? count++ : e)
     return count <= 15 ? 'Woohoo!' : 'Car Dead'
   }
+
+  function bump(x){
+    return x.split('').filter(e => e === 'n').length <= 15 ? 'Woohoo!' : 'Car Dead'
+}
