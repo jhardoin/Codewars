@@ -8,3 +8,8 @@ function largestPairSum (numbers) {
     numbers.length = 2
     return numbers.reduce((a,b) => a + b, 0)
   }
+
+  function largestPairSum (numbers) {
+    numbers.sort((a,b) => b - a)
+    return numbers[0] + numbers[1]
+}
