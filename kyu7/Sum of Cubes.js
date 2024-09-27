@@ -14,3 +14,7 @@ function sumCubes(n){
     }
     return total
 }
+
+function sumCubes(n){
+  return Array.from({length: n}, (_,i) => (i + 1) ** 3).reduce((a,b) => a + b, 0)
+}
