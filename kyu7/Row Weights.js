@@ -17,3 +17,9 @@ function rowWeights(array){
     array.forEach((e,i) => i % 2 === 0 ? a += e : b += e)
     return [a,b]
 }
+
+function rowWeights(array){
+  let one = array.filter((e,i) => i % 2 === 0).reduce((a,b) => a + b, 0)
+  let two = array.filter((e,i) => i % 2 !== 0).reduce((a,b) => a + b, 0)
+  return [one,two]
+}
