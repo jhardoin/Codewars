@@ -14,3 +14,9 @@ function mostFrequentItemCount(collection) {
     let num = a.map(e => collection.filter(el => e == el).length)
     return collection.length ? Math.max(...num) : 0
   }
+
+  function mostFrequentItemCount(collection) {
+    let obj = {}
+    collection.forEach(e => obj[e] = obj[e] + 1 || 1)
+    return collection.length === 0 ? 0 : Math.max(...Object.values(obj))
+}
