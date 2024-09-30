@@ -8,3 +8,7 @@ function reverseNumber(n) {
     return n > 0 ? +[...n.toString()].reverse().join(''):
     +[...Math.abs(n).toString()].reverse().join('') * -1
   }
+
+  function reverseNumber(n) {
+    return n > 0 ? +[...n.toString()].reverse().join('') : +[...Math.abs(n).toString()].reverse().join('') * -1
+  }
