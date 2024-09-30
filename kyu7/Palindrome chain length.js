@@ -12,3 +12,12 @@ function isPalindrome(num) {
     }
     return steps
   };
+
+  var palindromeChainLength = function(n) {
+    let count = 0
+    while(n.toString() !== n.toString().split('').reverse().join('')){
+      n = +n.toString().split('').reverse().join('') + n
+      count++
+    }
+    return count
+};
