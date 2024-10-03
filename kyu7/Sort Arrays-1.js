@@ -5,3 +5,7 @@ const sortme = function (names){
   sortme = function( names ){
     return names.sort()
   }
+
+  let sortme = function( names ){
+    return names.sort()
+}
