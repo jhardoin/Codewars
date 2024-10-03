@@ -9,3 +9,9 @@ function divCon(x){
     let string = x.filter(e => typeof e == 'string').reduce((a,b) => a + +b, 0)
     return nums - string
   }
+
+  function divCon(x){
+    let sum = 0
+    x.forEach(e => typeof e === 'number' ? sum += e : sum -= +e)
+    return sum
+}
