@@ -3,6 +3,7 @@ function specialNumber(n){
     return [...n.toString()].every(e => special.includes(e)) ? 'Special!!' : 'NOT!!'
   }
 
+  
   function specialNumber(n){
     return n.toString().split('').every(e => '012345'.includes(e)) ? 'Special!!' : 'NOT!!'
 }
