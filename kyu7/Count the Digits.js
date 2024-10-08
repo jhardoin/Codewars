@@ -20,3 +20,12 @@ function nbDig(n, d) {
   function nbDig(n, d) {
     return Array.from({length: n + 1}, (_,i) => i ** 2).join('').split('').filter(e => e == d).length
 }
+
+function nbDig(n, d) {
+  let arr = Array.from({length:n + 1}, (_,i) => i ** 2)
+  let count = 0
+  for(let i = 0; i < arr.length; i++){
+    count += arr[i].toString().split('').filter(e => e == d).length
+  }
+  return count
+}
