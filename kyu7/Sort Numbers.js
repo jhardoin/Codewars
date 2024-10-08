@@ -25,3 +25,7 @@ function solution(nums){
 function solution(nums){
   return nums ? nums.sort((a,b) => a - b) : []
 }
+
+function solution(nums){
+  return nums ? nums.sort((a,b) => a - b) : []
+}
