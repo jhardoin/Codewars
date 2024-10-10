@@ -23,3 +23,7 @@ function angle(n) {
 function angle(n) {
   return (n - 2) * 180
 }
+
+function angle(n) {
+  return (n - 2) * 180
+}
