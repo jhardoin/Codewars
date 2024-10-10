@@ -31,3 +31,8 @@ function dontGiveMeFive(start, end){
   let arr = Array.from({length: end - start + 1}, (_,i) => i + start)
   return arr.filter(e => !e.toString().includes('5')).length
 }
+
+function dontGiveMeFive(start, end){
+  let arr = Array.from({length: end - start + 1}, (_,i) => i + start)
+  return arr.filter(e => !e.toString().includes('5')).length
+}
