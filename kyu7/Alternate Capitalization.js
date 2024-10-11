@@ -31,3 +31,9 @@ function capitalize(s){
     let b = s.split('').map((e,i) => i % 2 !== 0 ? e.toUpperCase() : e).join('')
     return [a,b]
 };
+
+function capitalize(s){
+  let a = s.split('').map((e,i) => i % 2 === 0 ? e.toUpperCase() : e.toLowerCase()).join('')
+  let b = s.split('').map((e,i) => i % 2 !== 0 ? e.toUpperCase() : e.toLowerCase()).join('')
+  return [a,b]
+};
