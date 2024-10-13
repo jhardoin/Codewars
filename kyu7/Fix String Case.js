@@ -18,3 +18,9 @@ function solve(s){
     let lower = [...s].filter(e => e == e.toLowerCase()).length
     return lower >= upper ? s.toLowerCase() : s.toUpperCase()
   }
+
+  function solve(s){
+    let lower = s.split('').filter(e => e === e.toLowerCase()).length
+    let upper = s.split('').filter(e => e === e.toUpperCase()).length
+    return upper > lower ? s.toUpperCase() : s.toLowerCase()
+}
