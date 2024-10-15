@@ -18,3 +18,11 @@ function sumCubes(n){
 function sumCubes(n){
   return Array.from({length: n}, (_,i) => (i + 1) ** 3).reduce((a,b) => a + b, 0)
 }
+
+function sumCubes(n){
+  let sum = 0
+  for(let i = 1; i <= n; i++){
+    sum += i ** 3
+  }
+  return sum
+}
