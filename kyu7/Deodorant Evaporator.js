@@ -28,3 +28,13 @@ function evaporator(content, evap_per_day, threshold){
     }
       return days
     }
+
+    function evaporator(content, evap_per_day, threshold){ 
+      let days = 0
+      let gas = 100
+      while(gas >= threshold){
+        gas -= gas * evap_per_day / 100
+        days++
+      }
+      return days
+    }
