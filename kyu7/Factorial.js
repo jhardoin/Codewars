@@ -17,3 +17,11 @@ function factorial(n){
     while (n > 1) r *= n--
     return r
   }
+
+  function factorial(n){
+    let a = 1
+    for(let i = n; i > 0; i--){
+      a *= i
+    }
+    return a
+}
