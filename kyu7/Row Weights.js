@@ -23,3 +23,9 @@ function rowWeights(array){
   let two = array.filter((e,i) => i % 2 !== 0).reduce((a,b) => a + b, 0)
   return [one,two]
 }
+
+function rowWeights(array){
+  let team1 = array.filter((e,i) => i % 2 === 0).reduce((a,b) => a + b, 0)
+  let team2 = array.filter((e,i) => i % 2 !== 0).reduce((a,b) => a + b, 0)
+  return [team1,team2]
+}
