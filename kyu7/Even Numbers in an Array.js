@@ -7,3 +7,7 @@ function evenNumbers(array, number) {
   function evenNumbers(array, number) {
     return array.filter(e => e % 2 === 0).slice(-number)
   }
+
+  function evenNumbers(array, number) {
+    return array.filter(e => e % 2 === 0).slice(-number)
+}
