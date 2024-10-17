@@ -15,3 +15,11 @@ function vowelIndices(word){
 function vowelIndices(word){
   return word.toLowerCase().split('').map((e,i) => 'aeiouy'.includes(e) ? i + 1 : '').filter(e => e !== '')
 }
+
+function vowelIndices(word){
+  let arr = []
+  for(let i = 0; i < word.length; i++){
+    if('aeiouyAEIOUY'.includes(word[i])) arr.push(i + 1)
+  }
+  return arr
+}
