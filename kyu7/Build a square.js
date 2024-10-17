@@ -9,3 +9,11 @@ function generateShape(integer){
 function generateShape(n){
   return ("+".repeat(n)+"\n").repeat(n).trim()
 }
+
+function generateShape(integer){
+  let sq = []
+  for(let i = 0; i < integer; i++){
+    sq.push('+'.repeat(integer))
+  }
+  return sq.join('\n')
+}
