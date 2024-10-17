@@ -12,3 +12,7 @@ function removeDuplicateWords (s) {
     s.split(' ').forEach(e => !arr.includes(e) ? arr.push(e) : e)
     return arr.join(' ')
 }
+
+function removeDuplicateWords (s) {
+  return [...new Set(s.split(' '))].join(' ')
+}
