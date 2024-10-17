@@ -16,3 +16,9 @@ function isSortedAndHow(array) {
          JSON.stringify(array) == JSON.stringify(descendingSorted) ? 'yes, descending' : 'no'
  
 }
+
+function isSortedAndHow(array) {
+  let asc = [...array].sort((a,b) => a - b).join('')
+  let des = [...array].sort((a,b) => b - a).join('')
+  return array.join('') === asc ? 'yes, ascending' : array.join('') === des ? 'yes, descending' : 'no'
+}
