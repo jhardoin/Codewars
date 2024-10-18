@@ -17,3 +17,12 @@ function adjacentElementsProduct(array) {
     } 
     return max
   }
+
+  function adjacentElementsProduct(array) {
+    let max = -Infinity
+    for(let i = 0; i < array.length - 1; i++){
+      let temp = array[i] * array[i + 1]
+      if(temp > max) max = temp
+    }
+    return max
+}
