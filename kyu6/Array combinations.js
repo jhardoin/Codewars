@@ -12,3 +12,4 @@ function solve(arr) {
     let a = arr.map(e => [...new Set(e)])
     return a.reduce((a,b) => a * (b.length), 1)
 };
+
