@@ -9,3 +9,7 @@ const sortme = function (names){
   let sortme = function( names ){
     return names.sort()
 }
+
+sortme = function( names ){
+  return names.sort()
+}
