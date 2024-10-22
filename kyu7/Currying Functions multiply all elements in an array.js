@@ -5,3 +5,5 @@ function multiplyAll(array) {
   }
   
   const multiplyAll = arr => n => arr.map(x => n * x)
+
+  const multiplyAll = arr => n => arr.map(x => n * x)
