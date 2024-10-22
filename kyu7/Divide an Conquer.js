@@ -15,3 +15,9 @@ function divCon(x){
     x.forEach(e => typeof e === 'number' ? sum += e : sum -= +e)
     return sum
 }
+
+function divCon(x){
+  let count = 0
+  x.forEach(e => typeof e === 'number' ? count += e : count -= +e)
+  return count
+}
