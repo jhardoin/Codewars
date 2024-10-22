@@ -53,3 +53,8 @@ function duplicateEncode(word){
 function duplicateEncode(word){
     return word.toLowerCase().split('').map((e,i,a) => a.indexOf(e) == a.lastIndexOf(e) ? '(' : ')').join('')
 }
+
+
+function duplicateEncode(word){
+    return word.toLowerCase().split('').map((e,i,a) => a.indexOf(e) === a.lastIndexOf(e) ? '(' : ')').join('')
+}
