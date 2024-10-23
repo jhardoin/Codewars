@@ -5,3 +5,5 @@ for (var i = 0; i < questions.length; i++) {
 questions.forEach(x => x.usersAnswer = null)
 
 questions.forEach(x => x.usersAnswer = null)
+
+questions.forEach(x => x.usersAnswer = null)
