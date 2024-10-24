@@ -21,3 +21,12 @@ function isPalindrome(num) {
     }
     return count
 };
+
+var palindromeChainLength = function(n) {
+  let count = 0
+  while(n.toString() !== [...n.toString()].reverse().join('')){
+    n += +n.toString().split('').reverse().join('')
+    count++
+  }
+  return count
+};
