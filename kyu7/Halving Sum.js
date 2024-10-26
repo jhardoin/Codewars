@@ -18,3 +18,13 @@ function halvingSum(n) {
     return array.reduce((a,b) => a + b, 0)
   }
   
+
+  function halvingSum(n) {
+    let total = n
+    while(n > 0){
+      n = n/2
+      total += Math.floor(n)
+    }
+    return total
+  
+}
