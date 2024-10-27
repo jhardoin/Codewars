@@ -27,3 +27,24 @@ function solve(s) {
 
     return [upperCase, lowerCase, nums, special]
 }
+
+function solve(s){
+    let nums = 0
+    let upperCase = 0
+    let lowerCase = 0
+    let special = 0
+    
+    s.split('').forEach(e => {
+        if ('0123456789'.includes(e)) {
+            nums++
+        } else if ('ABCDEFGHIJKLMNOPQRSTUVWXYZ'.indexOf(e) !== -1) {
+            upperCase++
+        } else if ('abcdefghijklmnopqrstuvwxyz'.indexOf(e) !== -1) {
+            lowerCase++
+        } else {
+            special++
+        }
+    })
+
+    return [upperCase, lowerCase, nums, special]
+}
