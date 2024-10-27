@@ -7,3 +7,14 @@ function growingPlant(upSpeed, downSpeed, desiredHeight) {
     }
     return daysOfGrowth
   }
+
+  function growingPlant(upSpeed, downSpeed, desiredHeight) {
+    let count = 1
+    let current = upSpeed
+    while(current < desiredHeight){
+      current += upSpeed - downSpeed
+      count++
+    }
+    return count
+  
+}
