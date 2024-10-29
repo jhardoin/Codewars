@@ -5,3 +5,9 @@ function largest(n, array) {
     array.length = n
     return array.reverse()
   }
+
+  function largest(n, array) {
+    array.sort((a,b) => b - a)
+    array.length = n
+    return array.reverse()
+  }
