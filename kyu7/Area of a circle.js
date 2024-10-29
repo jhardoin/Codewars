@@ -6,3 +6,7 @@ function circleArea(radius) {
     }
     return Math.PI*(radius * radius);
   }
+
+  function circleArea(radius) {
+    return radius > 0 ? Math.PI * radius ** 2: error
+  }
