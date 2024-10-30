@@ -7,3 +7,7 @@ function sum(...a) {
   function sum(...nums) {
     return nums.reduce((a,b) => a + b, 0)
   }
+
+  function sum(...args) {
+    return args.reduce((a,b) => a + b, 0)
+}
