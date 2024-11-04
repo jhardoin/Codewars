@@ -72,3 +72,9 @@ function count(string) {
   string.split('').forEach(e => obj[e] = obj[e] + 1 || 1)
   return obj
 }
+
+function count(string) {
+  let obj = {}
+  string.split('').forEach(e => obj[e] = obj[e] + 1 || 1)
+  return obj
+}
