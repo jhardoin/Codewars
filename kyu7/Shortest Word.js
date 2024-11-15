@@ -25,3 +25,7 @@ function findShort(s){
 function findShort(s){
   return s.split(' ').reduce((a,b) => b.length < a.length ? b : a).length
 }
+
+function findShort(s){
+  return s.split(' ').reduce((a,b) => b.length < a.length ? b : a).length
+}
