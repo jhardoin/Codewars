@@ -9,3 +9,9 @@ function add(n) {
       return n+m;
     }
   }
+
+  function add(n) {
+    return function (m) {
+      return n+m;
+    }
+  }
