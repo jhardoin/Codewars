@@ -26,3 +26,9 @@ function mostFrequentItemCount(collection) {
   collection.forEach(e => obj[e] = obj[e] + 1 || 1)
   return collection.length === 0 ? 0 : Math.max(...Object.values(obj))
 }
+
+function mostFrequentItemCount(collection) {
+  let obj = {}
+  collection.forEach(e => obj[e] = obj[e] + 1 || 1)
+  return collection.length === 0 ? 0 : Math.max(...Object.values(obj))
+}
