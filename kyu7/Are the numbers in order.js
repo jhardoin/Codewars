@@ -19,3 +19,7 @@ function inAscOrder(arr) {
 function inAscOrder(arr) {
   return arr.toString() === arr.sort((a,b) => a - b).toString()
 }
+
+function inAscOrder(arr) {
+  return arr.toString() === arr.sort((a,b) => a - b).toString()
+}
