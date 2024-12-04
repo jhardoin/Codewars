@@ -30,3 +30,7 @@ function isIsogram(str){
 function isIsogram(str){
   return str.length === [...new Set(str.toLowerCase())].length
 }
+
+function isIsogram(str){
+  return str.length === [...new Set(str.toLowerCase())].length
+}
