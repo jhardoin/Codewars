@@ -30,3 +30,8 @@ var palindromeChainLength = function(n) {
   }
   return count
 };
+
+function isPalindrome(num) {
+  const strNum = num.toString();
+  return strNum === strNum.split('').reverse().join('');
+}
