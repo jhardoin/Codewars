@@ -11,3 +11,7 @@ function switcheroo(x){
 function switcheroo(x){
   return x.split('').map(e => e === 'a' ? 'b' : e === 'b' ? 'a' : e).join('')
 }
+
+function switcheroo(x){
+  return x.split('').map(e => e === 'a' ? 'b' : e === 'b' ? 'a' : e).join('')
+}
