@@ -11,3 +11,7 @@ function hasUniqueChars(str){
 function hasUniqueChars(str){
   return [...new Set(str)].length === str.length
 }
+
+function hasUniqueChars(str){
+  return [...new Set(str)].length === str.length
+}
