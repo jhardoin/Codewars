@@ -50,3 +50,7 @@ function findUniq(arr) {
 function findUniq(arr) {
   return arr.find(e => arr.indexOf(e) === arr.lastIndexOf(e))
 }
+
+function findUniq(arr) {
+  return arr.find(e => arr.indexOf(e) === arr.lastIndexOf(e))
+}
