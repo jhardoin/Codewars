@@ -10,3 +10,7 @@ function alternateCase(s) {
   function alternateCase(s) {
     return [...s].map(e => e == e.toUpperCase() ? e.toLowerCase() : e.toUpperCase()).join('')
   }
+
+  function alternateCase(s) {
+    return [...s].map(e => e == e.toUpperCase() ? e.toLowerCase() : e.toUpperCase()).join('')
+  }
