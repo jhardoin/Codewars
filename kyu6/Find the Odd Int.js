@@ -55,3 +55,7 @@ function findOdd(A) {
 function findOdd(A) {
   return A.find((e,i,a) => a.filter(el => el === e).length % 2 !== 0)
 }
+
+function findOdd(A) {
+  return A.find((e,i,a) => a.filter(el => el === e).length % 2 !== 0)
+}

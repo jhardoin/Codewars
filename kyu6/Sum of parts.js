@@ -42,3 +42,13 @@ function partsSums(ls) {
     }
     return result;
 }
+
+function partsSums(ls) {
+    let sum = ls.reduce((a, b) => a + b, 0);
+    let result = [sum];
+    for (let num of ls) {
+        sum -= num;
+        result.push(sum);
+    }
+    return result;
+}

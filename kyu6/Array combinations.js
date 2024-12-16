@@ -13,3 +13,4 @@ function solve(arr) {
     return a.reduce((a,b) => a * (b.length), 1)
 };
 
+const solve = arr => arr.map(e => new Set(e).size).reduce((a,b) => a * b)
