@@ -33,3 +33,8 @@ function fizzbuzz(n){
   return Array.from({length: n}, (_,i) => i + 1)
     .map((e,i) => e % 5 === 0 && e % 3 === 0 ? 'FizzBuzz' : e % 5 == 0 ? 'Buzz' : e % 3 == 0 ? 'Fizz' : e)
 }
+
+function fizzbuzz(n){
+  return Array.from({length: n}, (_,i) => i + 1)
+    .map((e,i) => e % 5 === 0 && e % 3 === 0 ? 'FizzBuzz' : e % 5 == 0 ? 'Buzz' : e % 3 == 0 ? 'Fizz' : e)
+}
