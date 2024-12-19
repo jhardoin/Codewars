@@ -31,3 +31,7 @@ function filter_list(l) {
 function filter_list(l) {
   return l.filter(e => typeof e === 'number')
 }
+
+function filter_list(l) {
+  return l.filter(e => typeof e === 'number')
+}
