@@ -29,3 +29,7 @@ function stray(numbers) {
 function stray(numbers) {
   return numbers.find(e => numbers.indexOf(e) === numbers.lastIndexOf(e))
 }
+
+function stray(numbers) {
+  return numbers.find(e => numbers.indexOf(e) === numbers.lastIndexOf(e))
+}
