@@ -11,3 +11,7 @@ function digits(n) {
   function digits(n) {
     return n.toString().length
 }
+
+function digits(n) {
+  return n.toString().length
+}
