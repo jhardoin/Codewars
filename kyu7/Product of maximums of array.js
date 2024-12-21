@@ -11,3 +11,9 @@ function maxProduct(numbers, size){
     numbers.length = size
     return numbers.reduce((a,b) => a * b, 1)
   }
+
+  function maxProduct(numbers, size){
+    numbers.sort((a,b) => b - a)
+    numbers.length = size
+    return numbers.reduce((a,b) => a * b, 1)
+  }
