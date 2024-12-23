@@ -18,3 +18,8 @@ function cubeOdd(arr) {
     if(arr.some(e => typeof e !== 'number')) return undefined
     return arr.map(e => e ** 3).filter(e => e % 2 !== 0).reduce((a,b) => a + b, 0)
 }
+
+function cubeOdd(arr) {
+  if(arr.some(e => typeof e !== 'number')) return undefined
+  return arr.map(e => e ** 3).filter(e => e % 2 !== 0).reduce((a,b) => a + b, 0)
+}
