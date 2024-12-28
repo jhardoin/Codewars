@@ -17,3 +17,11 @@ function generateShape(integer){
   }
   return sq.join('\n')
 }
+
+function generateShape(integer){
+  let sq = []
+  for(let i = 0; i < integer; i++){
+    sq.push('+'.repeat(integer))
+  }
+  return sq.join('\n')
+}
