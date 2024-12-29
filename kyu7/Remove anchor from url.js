@@ -22,3 +22,7 @@ function removeUrlAnchor(url){
   function removeUrlAnchor(url){
     return url.split('#')[0]
 }
+
+function removeUrlAnchor(url){
+  return url.split('#')[0]
+}
