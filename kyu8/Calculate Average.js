@@ -20,3 +20,7 @@ function findAverage(array) {
   function findAverage(array) {
     return array.reduce((a,b) => a + b, 0)/array.length || 0
   }
+
+  function findAverage(array) {
+    return array.reduce((a,b) => a + b, 0)/array.length || 0
+  }
