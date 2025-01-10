@@ -25,3 +25,7 @@ function noSpace(x){
 function noSpace(x){
   return x.split(' ').join('')
 }
+
+function noSpace(x){
+  return x.split(' ').join('')
+}
