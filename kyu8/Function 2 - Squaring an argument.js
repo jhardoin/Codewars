@@ -15,3 +15,7 @@ function square(num){
   function square(x) {
     return Math.pow(x, 2)
   }
+
+  function square(x) {
+    return Math.pow(x, 2)
+  }
