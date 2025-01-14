@@ -9,3 +9,8 @@ function defineSuit(card) {
         let suit = { '♣' : 'clubs', '♦' : 'diamonds', '♥' : 'hearts', '♠' : 'spades'}
         return card.length == 2 ? suit[card[1]] : suit[card[2]]
       }
+
+      function defineSuit(card) {
+        let suit = { '♣' : 'clubs', '♦' : 'diamonds', '♥' : 'hearts', '♠' : 'spades'}
+        return card.length == 2 ? suit[card[1]] : suit[card[2]]
+      }
