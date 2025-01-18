@@ -18,3 +18,7 @@ function predictAge(...ages){
 function predictAge(...ages){
   return Math.floor(Math.sqrt(ages.reduce((a,b) => a + (b * b),0)) / 2)
 }
+
+function predictAge(...ages){
+  return Math.floor(Math.sqrt(ages.reduce((a,b) => a + (b * b),0)) / 2)
+}
