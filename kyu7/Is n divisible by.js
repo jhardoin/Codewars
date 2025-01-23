@@ -3,3 +3,9 @@ function isDivisible(...a){
     a.shift()
     return a.every(e => b % e == 0)
   }
+
+  function isDivisible(...a){
+    let b = a[0]
+    a.shift()
+    return a.every(e => b % e == 0)
+  }
