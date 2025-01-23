@@ -47,3 +47,9 @@ var capitals = function (word) {
   word.split('').forEach((e,i) => e === e.toUpperCase() ? arr.push(i) : e)
   return arr
 };
+
+var capitals = function (word) {
+  let arr = []
+  word.split('').forEach((e,i) => e === e.toUpperCase() ? arr.push(i) : e)
+  return arr
+};
