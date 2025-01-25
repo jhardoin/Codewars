@@ -7,3 +7,7 @@ function wordsToMarks(string){
   function wordsToMarks(string){
     return string.split('').reduce((a,b) => a + (b.charCodeAt() - 96), 0)
 }
+
+function wordsToMarks(string){
+  return string.split('').reduce((a,b) => a + (b.charCodeAt() - 96), 0)
+}
