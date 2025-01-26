@@ -41,3 +41,12 @@ function minSum(arr) {
   }
   return sum
 }
+
+function minSum(arr) {
+  arr.sort((a,b) => a - b)
+  let sum = 0
+  for(let i = 0, j = arr.length - 1; i < arr.length/2; i++, j--){
+    sum += arr[i] * arr[j]
+  }
+  return sum
+}
