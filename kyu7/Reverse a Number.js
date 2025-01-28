@@ -22,3 +22,8 @@ function reverseNumber(n) {
     return n >= 0 ? +n.toString().split('').reverse().join('') :
       +('-' + n.toString().slice(1).split('').reverse().join(''))
   }
+
+  function reverseNumber(n) {
+    return n >= 0 ? +n.toString().split('').reverse().join('') :
+      +('-' + n.toString().slice(1).split('').reverse().join(''))
+  }
