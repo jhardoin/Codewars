@@ -37,3 +37,11 @@ var splitInParts = function(s, partLength){
   } 
   return a.join(' ')
 }
+
+var splitInParts = function(s, partLength){
+  let a = []
+  for(let i = 0; i < s.length; i += partLength){
+    a.push(s.slice(i, i + partLength))
+  } 
+  return a.join(' ')
+}
