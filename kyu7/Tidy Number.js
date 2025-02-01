@@ -8,3 +8,7 @@ function tidyNumber(n){
   function tidyNumber(n){
     return n == +[...n.toString()].sort((a,b) => a - b).join("")
   }
+
+  function tidyNumber(n){
+    return n == +[...n.toString()].sort((a,b) => a - b).join("")
+  }
