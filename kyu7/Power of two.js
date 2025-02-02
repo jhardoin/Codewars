@@ -16,3 +16,12 @@ function isPowerOfTwo(n){
     }
     return false;
 }
+
+function isPowerOfTwo(n){
+  for(let i = 0; i <= 100; i++){
+      if(n == (2 ** i)){
+          return true;
+      }
+  }
+  return false;
+}
