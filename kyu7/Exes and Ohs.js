@@ -40,3 +40,9 @@ function XO(str) {
     let o = str.toLowerCase().split('').filter(e => e === 'o').length
     return x === o
 }
+
+function XO(str) {
+    let x = str.toLowerCase().split('').filter(e => e === 'x').length
+    let o = str.toLowerCase().split('').filter(e => e === 'o').length
+    return x === o
+}
