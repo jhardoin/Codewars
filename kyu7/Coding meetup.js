@@ -34,3 +34,9 @@ function countDevelopers(list) {
     list.forEach(e => e.continent === 'Europe' && e.language == 'JavaScript' ? count++ : 0)
     return count
 }
+
+function countDevelopers(list) {
+    let count = 0
+    list.forEach(e => e.continent === 'Europe' && e.language == 'JavaScript' ? count++ : 0)
+    return count
+}
