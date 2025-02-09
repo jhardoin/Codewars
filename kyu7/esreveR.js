@@ -29,3 +29,11 @@ reverse = function(array) {
     }
     return arr
   }
+
+  reverse = function(array) {
+    let arr = []
+    for(let i = 0; i < array.length; i++){
+      arr.unshift(array[i])
+    }
+    return arr
+  }
