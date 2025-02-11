@@ -40,3 +40,8 @@ function isPalindrome(num) {
   const strNum = num.toString();
   return strNum === strNum.split('').reverse().join('');
 }
+
+function isPalindrome(num) {
+  const strNum = num.toString();
+  return strNum === strNum.split('').reverse().join('');
+}
