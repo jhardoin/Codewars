@@ -29,3 +29,7 @@ function maxMultiple(divisor, bound){
 function maxMultiple(divisor, bound){
   return Math.floor(bound/divisor) * divisor
 }
+
+function maxMultiple(divisor, bound){
+  return Math.floor(bound/divisor) * divisor
+}
