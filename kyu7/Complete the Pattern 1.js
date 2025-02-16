@@ -9,3 +9,7 @@ function pattern(n){
 function pattern(n){
   return n < 1 ? '' : Array.from({length:n}, (e,i) => i + 1).map(e => e.toString().repeat(e)).join('\n')
 }
+
+function pattern(n){
+  return n < 1 ? '' : Array.from({length:n}, (e,i) => i + 1).map(e => e.toString().repeat(e)).join('\n')
+}
