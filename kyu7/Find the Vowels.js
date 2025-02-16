@@ -50,3 +50,6 @@ function vowelIndices(word){
   return arr
 }
 
+function vowelIndices(word){
+  return word.toLowerCase().split('').map((e,i) => 'aeiouy'.includes(e) ? i + 1 : '').filter(e => e !== '')
+}
