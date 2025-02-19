@@ -20,3 +20,9 @@ function calc(x){
     let b = [...a].map(e => e == 7 ? 1 : e).join('')
     return [...a].reduce((a,b) => a + +b, 0) - [...b].reduce((a,b) => a + +b, 0)
 }
+
+function calc(x){
+  let a = [...x].map(e => e.charCodeAt()).join('')
+  let b = [...a].map(e => e == 7 ? 1 : e).join('')
+  return [...a].reduce((a,b) => a + +b, 0) - [...b].reduce((a,b) => a + +b, 0)
+}
