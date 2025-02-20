@@ -10,3 +10,9 @@ function addLetters(...letters) {
     let l = letters.reduce((a,b) => a + (b.charCodeAt() - 96), 0) % 26
     return String.fromCharCode((l === 0 ? 26 : l) + 96)
 }
+
+function addLetters(...letters) {
+    if(letters.length === 0) return 'z'
+    let l = letters.reduce((a,b) => a + (b.charCodeAt() - 96), 0) % 26
+    return String.fromCharCode((l === 0 ? 26 : l) + 96)
+}
