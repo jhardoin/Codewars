@@ -11,3 +11,7 @@ var flatten = function (array){
 var flatten = function (array){
   return array.flat()
 }
+
+var flatten = function (array){
+  return array.flat()
+}
