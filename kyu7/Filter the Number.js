@@ -19,3 +19,7 @@ var filterString = function(value) {
 var filterString = function(value) {
   return +value.split('').filter(e => '1234567890'.includes(e)).join('')
 }
+
+var filterString = function(value) {
+  return +value.split('').filter(e => '1234567890'.includes(e)).join('')
+}
