@@ -32,3 +32,7 @@ function addBinary(a,b) {
 function addBinary(a,b) {
   return (a + b).toString(2)
 }
+
+function addBinary(a,b) {
+  return (a + b).toString(2)
+}
