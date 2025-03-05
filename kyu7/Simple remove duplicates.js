@@ -11,3 +11,7 @@ function solve(arr) {
     }
     return a
 }
+
+function solve(arr) {
+  return [...new Set(arr.reverse())].reverse()
+}
