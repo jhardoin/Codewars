@@ -25,3 +25,11 @@ function multiples(m, n){
   }
   return arr
 }
+
+function multiples(m, n){
+  let arr = []
+  for(let i = n; arr.length < m; i += n){
+    arr.push(i)
+  }
+  return arr
+}
