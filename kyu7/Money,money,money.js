@@ -75,3 +75,14 @@ function calculateYears(principal, interest, tax, desired) {
   }
   return years
 }
+
+function calculateYears(principal, interest, tax, desired) {
+  let years = 0
+  while(principal < desired){
+    let increase = principal * interest
+    let decrease = increase * tax
+    principal += increase - decrease
+    years++
+  }
+  return years
+}
