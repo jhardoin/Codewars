@@ -11,3 +11,7 @@ var findAverage = function (nums) {
   var findAverage = function (nums) {
     return nums.reduce((a,b) => a + b, 0)/nums.length
   }
+
+  var findAverage = function (nums) {
+    return nums.reduce((a,b) => a + b, 0)/nums.length
+  }
