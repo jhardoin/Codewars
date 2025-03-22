@@ -12,3 +12,7 @@ function unusualFive() {
   function unusualFive() {
     return 'abcde'.length
   }
+
+  function unusualFive() {
+    return 'abcde'.length
+  }
