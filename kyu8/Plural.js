@@ -13,3 +13,7 @@ function plural(n) {
   function plural(n) {
     return n !== 1
   }
+
+  function plural(n) {
+    return n !== 1
+  }
