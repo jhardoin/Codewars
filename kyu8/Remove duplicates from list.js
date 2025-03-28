@@ -11,3 +11,7 @@ function distinct(a) {
   function distinct(a) {
     return [...new Set(a)]
   }
+
+  function distinct(a) {
+    return [...new Set(a)]
+  }
