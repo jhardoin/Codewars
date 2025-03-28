@@ -19,3 +19,7 @@ function sum (numbers) {
 function sum (numbers) {
     return numbers.reduce((a,b) => a + b, 0)
 }
+
+function sum (numbers) {
+    return numbers.reduce((a,b) => a + b, 0)
+}
