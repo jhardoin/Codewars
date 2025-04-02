@@ -19,3 +19,5 @@ var countSheep = function (num){
     }
     return a.join('')
   }
+
+  var countSheep = num => [...Array(num)].map((e,i) => (i+1) + ' sheep...').join('')
