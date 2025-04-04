@@ -24,3 +24,8 @@ function findNeedle(haystack) {
     let p = haystack.indexOf('needle')
     return `found the needle at position ${p}`
 }
+
+function findNeedle(haystack) {
+  let p = haystack.indexOf('needle')
+  return `found the needle at position ${p}`
+}
