@@ -23,3 +23,7 @@ function doubleChar(str) {
 function doubleChar(str) {
   return [...str].map(e => e + e).join('')
 }
+
+function doubleChar(str) {
+  return [...str].map(e => e + e).join('')
+}
