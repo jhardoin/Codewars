@@ -19,3 +19,7 @@ function makeUpperCase(str) {
     }
     return s.join('')
   }
+
+  function makeUpperCase(str) {
+    return str.toUpperCase()
+  }
