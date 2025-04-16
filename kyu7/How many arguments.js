@@ -5,3 +5,7 @@ function args_count(...a) {
   function args_count(...a) {
     return a.length
   }
+
+  function args_count(...a) {
+    return a.length
+  }
