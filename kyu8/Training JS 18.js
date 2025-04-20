@@ -7,3 +7,7 @@ function splitAndMerge(string, separator) {
   function splitAndMerge(string, separator) {
     return string.split(' ').map(e => e.split('').join(separator)).join(' ')
   }
+
+  function splitAndMerge(string, separator) {
+    return string.split(' ').map(e => e.split('').join(separator)).join(' ')
+  }
