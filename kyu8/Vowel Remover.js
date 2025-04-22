@@ -19,3 +19,7 @@ function shortcut (string) {
   function shortcut (string) {
     return [...string].filter(e => !'aeiou'.includes(e)).join('')
   }
+
+  function shortcut (string) {
+    return [...string].filter(e => !'aeiou'.includes(e)).join('')
+  }
