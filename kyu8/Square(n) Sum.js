@@ -31,3 +31,7 @@ function squareSum(numbers){
 function squareSum(numbers){
   return numbers ? numbers.reduce((a,b) => a + b ** 2, 0) : 0
 }
+
+function squareSum(numbers){
+  return numbers ? numbers.reduce((a,b) => a + b ** 2, 0) : 0
+}
