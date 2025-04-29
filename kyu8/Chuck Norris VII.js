@@ -5,3 +5,7 @@ function ifChuckSaysSo(){
   function ifChuckSaysSo(){
     return 5 < 4
   }
+
+  function ifChuckSaysSo(){
+    return 5 < 4
+  }
