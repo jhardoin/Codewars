@@ -23,3 +23,7 @@ function strCount(str, letter){
   function strCount(str, letter){  
     return str.split(letter).length - 1
   }
+
+  function strCount(str, letter){  
+    return str.split(letter).length - 1
+  }
