@@ -34,3 +34,7 @@ function fakeBin(x){
   function fakeBin(x){
     return [...x].map(e => e < 5 ? '0' : '1').join('')
   }
+
+  function fakeBin(x){
+    return [...x].map(e => e < 5 ? '0' : '1').join('')
+  }
