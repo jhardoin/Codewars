@@ -23,3 +23,8 @@ function makeUpperCase(str) {
   function makeUpperCase(str) {
     return str.toUpperCase()
   }
+
+
+  function makeUpperCase(str) {
+    return str.toUpperCase()
+  }
