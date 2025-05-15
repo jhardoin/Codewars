@@ -14,3 +14,7 @@ function stringy(size) {
   function stringy(size) {
     return ''.padStart(size,'10')
   }
+
+  function stringy(size) {
+    return ''.padStart(size,'10')
+  }
