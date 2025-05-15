@@ -21,3 +21,7 @@ function removeExclamationMarks(s) {
 function removeExclamationMarks(s) {
   return [...s].filter(e => e !== '!').join('')
 }
+
+function removeExclamationMarks(s) {
+  return [...s].filter(e => e !== '!').join('')
+}
