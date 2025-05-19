@@ -20,3 +20,8 @@ function bump(x){
   let bumps = x.split('').filter(e => e === 'n').length
   return bumps <= 15 ? 'Woohoo!' : 'Car Dead'
 }
+
+function bump(x){
+  let bumps = x.split('').filter(e => e === 'n').length
+  return bumps <= 15 ? 'Woohoo!' : 'Car Dead'
+}
