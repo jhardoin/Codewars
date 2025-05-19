@@ -25,3 +25,7 @@ function DNAStrand(dna){
   function dnaStrand(dna){
     return dna.split('').map(e => e == 'A' ? 'T' : e == 'T' ? 'A' : e == 'G' ? 'C' : 'G').join('')
   }
+
+  function dnaStrand(dna){
+    return dna.split('').map(e => e == 'A' ? 'T' : e == 'T' ? 'A' : e == 'G' ? 'C' : 'G').join('')
+  }
