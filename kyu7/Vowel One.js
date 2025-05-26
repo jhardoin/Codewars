@@ -22,3 +22,7 @@ function vowelOne(s){
 function vowelOne(s){
   return s.split('').map(e => 'aeiouAEIOU'.includes(e) ? 1 : 0).join('')
 }
+
+function vowelOne(s){
+  return s.split('').map(e => 'aeiouAEIOU'.includes(e) ? 1 : 0).join('')
+}
