@@ -21,3 +21,13 @@ function squares(x, n) {
   return arr
 
 }
+
+
+function squares(x, n) {
+  let arr = []
+  for(let i = x; arr.length < n; i **= 2){
+    arr.push(i)
+  }
+  return arr
+
+}
