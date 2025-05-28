@@ -35,3 +35,7 @@ function repeats(arr){
 function repeats(arr){
   return arr.filter(e => arr.indexOf(e) === arr.lastIndexOf(e)).reduce((a,b) => a + b, 0)
 };
+
+function repeats(arr){
+  return arr.filter(e => arr.indexOf(e) === arr.lastIndexOf(e)).reduce((a,b) => a + b, 0)
+};
