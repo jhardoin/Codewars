@@ -11,3 +11,7 @@ function binToDec(bin){
   function binToDec(bin) {
     return parseInt(bin, 2)
   }
+
+  function binToDec(bin) {
+    return parseInt(bin, 2)
+  }
