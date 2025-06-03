@@ -21,3 +21,7 @@ function correctTail(bod, tail){
   function correctTail(bod, tail){
     return bod[bod.length - 1] == tail
   }
+
+  function correctTail(bod, tail){
+    return bod[bod.length - 1] == tail
+  }
