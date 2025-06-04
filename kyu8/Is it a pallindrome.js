@@ -21,3 +21,8 @@ function isPalindrome(x) {
   let y = x.toLowerCase()
   return y == [...y].reverse().join('')
 }
+
+function isPalindrome(x) {
+  let y = x.toLowerCase()
+  return y == [...y].reverse().join('')
+}
