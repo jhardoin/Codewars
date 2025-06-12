@@ -13,3 +13,7 @@ function generateRange(min, max, step){
   function generateRange(min, max, step){
     return Array.from({length:1+(max-min)/step}, (_, i) => min + i*step);
   }
+
+  function generateRange(min, max, step){
+    return Array.from({length:1+(max-min)/step}, (_, i) => min + i*step);
+  }
