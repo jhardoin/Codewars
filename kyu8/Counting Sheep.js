@@ -19,3 +19,7 @@ function countSheeps(sheep) {
 function countSheeps(sheep) {
     return sheep.filter(e => e == true).length
 }
+
+function countSheeps(sheep) {
+    return sheep.filter(e => e == true).length
+}
