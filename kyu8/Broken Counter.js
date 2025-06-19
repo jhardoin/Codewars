@@ -13,3 +13,7 @@ function Counter() {
   Counter.prototype.reset = function() {
     this.value = 0;
   };
+
+  Counter.prototype.reset = function() {
+    this.value = 0;
+  };
