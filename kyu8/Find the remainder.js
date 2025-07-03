@@ -23,3 +23,7 @@ function remainder(n, m){
   function remainder(n, m){
     return Math.max(n,m) % Math.min(n,m)
   }
+
+  function remainder(n, m){
+    return Math.max(n,m) % Math.min(n,m)
+  }
