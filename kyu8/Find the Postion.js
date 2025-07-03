@@ -11,3 +11,7 @@ function position(letter){
 function position(letter){
     return `Position of alphabet: ${letter.charCodeAt() - 96}`
 }
+
+function position(letter){
+    return `Position of alphabet: ${letter.charCodeAt() - 96}`
+}
