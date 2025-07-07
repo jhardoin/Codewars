@@ -11,3 +11,6 @@ let ops = {
   function logicalCalc(array, op){
     return array.reduce(ops[op])
   }
+  function logicalCalc(array, op){
+    return array.reduce(ops[op])
+  }
