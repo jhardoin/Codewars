@@ -23,3 +23,7 @@ function fixTheMeerkat(arr) {
   function fixTheMeerkat(arr) {
     return arr.reverse()
   }
+
+  function fixTheMeerkat(arr) {
+    return arr.reverse()
+  }
