@@ -45,3 +45,7 @@ function reverseWords(str) {
 function reverseWords(str) {
   return str.split(' ').map(e => [...e].reverse().join('')).join(' ')
 }
+
+function reverseWords(str) {
+  return str.split(' ').map(e => [...e].reverse().join('')).join(' ')
+}
