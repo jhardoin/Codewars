@@ -30,3 +30,7 @@ function findDifference(a, b) {
 function findDifference(a, b) {
   return Math.abs(a.reduce((a,b) => a * b, 1) - b.reduce((a,b) => a * b, 1))
 }
+
+function findDifference(a, b) {
+  return Math.abs(a.reduce((a,b) => a * b, 1) - b.reduce((a,b) => a * b, 1))
+}
