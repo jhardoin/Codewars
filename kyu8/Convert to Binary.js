@@ -19,3 +19,7 @@ function toBinary(n){
   function toBinary(n){
     return +n.toString(2)
   }
+
+  function toBinary(n){
+    return +n.toString(2)
+  }
