@@ -33,3 +33,7 @@ class SmallestIntegerFinder {
     return Math.min(...args)
   }
   
+  function findSmallestInt(args) {
+    return Math.min(...args)
+  }
+  
