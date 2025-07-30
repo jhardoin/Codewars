@@ -61,3 +61,7 @@ function evenOrOdd(number) {
 function evenOrOdd(number) {
   return number % 2 ? 'Odd' : 'Even'
 }
+
+function evenOrOdd(number) {
+  return number % 2 ? 'Odd' : 'Even'
+}
