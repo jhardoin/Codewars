@@ -42,3 +42,9 @@ function solve(s){
     let upper = s.split('').filter(e => e === e.toUpperCase()).length
     return upper > lower ? s.toUpperCase() : s.toLowerCase()
 }
+
+function solve(s){
+    let lower = s.split('').filter(e => e === e.toLowerCase()).length
+    let upper = s.split('').filter(e => e === e.toUpperCase()).length
+    return upper > lower ? s.toUpperCase() : s.toLowerCase()
+}
