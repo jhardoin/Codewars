@@ -29,3 +29,7 @@ function sumStr(a,b) {
 function sumStr(a,b) {
   return String(+a + +b)
 }
+
+function sumStr(a,b) {
+  return String(+a + +b)
+}
