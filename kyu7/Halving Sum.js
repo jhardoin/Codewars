@@ -48,3 +48,14 @@ function halvingSum(n) {
   return total
 
 }
+
+
+function halvingSum(n) {
+  let total = n
+  while(n > 0){
+    n = n/2
+    total += Math.floor(n)
+  }
+  return total
+
+}
