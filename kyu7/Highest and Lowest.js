@@ -42,3 +42,7 @@ function highAndLow(numbers){
   function highAndLow(numbers){
     return `${Math.max(...numbers.split(' '))} ${Math.min(...numbers.split(' '))}`
   }
+
+  function highAndLow(numbers){
+    return `${Math.max(...numbers.split(' '))} ${Math.min(...numbers.split(' '))}`
+  }
